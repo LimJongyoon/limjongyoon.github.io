@@ -4,9 +4,9 @@
 
 # Lim, Jongyoon <small>[lɪm dʒɔŋ jun]</small>
 
-## I am a multisensory researcher in <a href=http://lifestylemedia.org> LifeStyle Media Group</a>.
+## I am an HCI researcher and co-founder of a startup</a>.
 
-- Previously, I studied Human Computer Interaction in <a href=http://creative.sogang.ac.kr>Art & technology at Sogang University</a>, for my Master’s degree and I obtained my B.Eng. in Electrical Engineering in the College of Engineering at the <a href=https://eng.ssu.ac.kr>Soongsil University</a>. Additionally, I had worked as an electrical engineer in the <a href=https://global.canon/en/product/indtech/semicon/>Canon Optics Division</a>.
+- I hold a Master's degree in Human-Computer Interaction from <a href=http://creative.sogang.ac.kr>Art & Technology at Sogang University</a>, with a B.Eng. in Electrical Engineering from the <a href=https://eng.ssu.ac.kr>College of Engineering at Soongsil University</a>. I also have experience working as an electrical engineer in the <a href=https://global.canon/en/product/indtech/semicon/>Canon Optics Division</a>.
 
 - Interests: VR/AR, Game, Haptics, Wearable Devices, Multi Modal, Robotics
 
@@ -22,7 +22,7 @@
     <img src="icons/mailpng.png" alt="mail" height="30">
 </a>
 
-[About Me More⬇](#Paper)
+[More About Me ⬇](#Paper)
 
 <!-- ![color](#f0f0f0) -->
 
