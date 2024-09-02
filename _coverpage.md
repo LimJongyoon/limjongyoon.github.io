@@ -2,10 +2,10 @@
 
 <img src="images/me2.png" width="200px" alt="LJY"></img><br/>
 
-## <span style="font-size: 36px;"> Lim, Jongyoon</span><span style="font-size: 15px;">[lɪm dʒɔŋ jun]</span>
+## <span style="font-size: 36px;"> Lim, Jongyoon</span><span style="font-size: 15px;">[lɪm dʒɔŋ jun]</span> <!-- {docsify-ignore} -->
 
 
-### HCI researcher and co-founder of a startup
+### HCI researcher and co-founder of a startup <!-- {docsify-ignore} -->
 
 - I hold a Master's degree in Human-Computer Interaction from <a href=http://creative.sogang.ac.kr>Art & Technology at Sogang University</a>, with a B.Eng. in Electrical Engineering from the <a href=https://eng.ssu.ac.kr>College of Engineering at Soongsil University</a>. I also have experience working as an electrical engineer in the <a href=https://global.canon/en/product/indtech/semicon/>Canon Optics Division</a>.
 
