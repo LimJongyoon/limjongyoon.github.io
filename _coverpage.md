@@ -4,7 +4,7 @@
 
 # Lim, Jongyoon <small>[lɪm dʒɔŋ jun]</small>
 
-## I am an HCI researcher and co-founder of a startup</a>.
+## HCI researcher and co-founder of a startup
 
 - I hold a Master's degree in Human-Computer Interaction from <a href=http://creative.sogang.ac.kr>Art & Technology at Sogang University</a>, with a B.Eng. in Electrical Engineering from the <a href=https://eng.ssu.ac.kr>College of Engineering at Soongsil University</a>. I also have experience working as an electrical engineer in the <a href=https://global.canon/en/product/indtech/semicon/>Canon Optics Division</a>.
 
