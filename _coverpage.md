@@ -1,6 +1,6 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-<img src="./images/me2.png" width="200px" alt="LJY"></img><br/>
+<img src="images/me2.png" width="200px" alt="LJY"></img><br/>
 # Lim, Jongyoon <small>[lɪm dʒɔŋ jun]</small>
 
 ## I am a multisensory researcher in <a href=http://lifestylemedia.org> LifeStyle Media Group</a>.
