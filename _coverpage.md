@@ -17,7 +17,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/jongyoon-lim-b28421210/">
-    <img src="icons/linkedin2.png" alt="linkedin" height="30">
+    <img src="icons/Linkedin2.png" alt="linkedin" height="30">
 </a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
