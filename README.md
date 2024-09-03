@@ -43,7 +43,7 @@
 
 ## Project <!-- {docsify-ignore} -->
 
-#### Tangible Products
+#### Tangible Products <!-- {docsify-ignore} -->
 
 <div class="portfolio-item" onclick="window.location.href='#/everpen2.md';">
     <img src="../images/everpen2.PNG" alt="everpen2" class="portfolio-image">
@@ -132,7 +132,7 @@
     <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Hotel Meta: Virtual Hospitality Experience</span>
-		Hardware Development <br><br>
+        Hardware Development <br><br>
         <span class="summary">Hotel Meta redefines hospitality by creating a fully immersive virtual hotel experience, where users can explore, interact, and engage with a digital environment that mirrors real-world luxury hotels.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
