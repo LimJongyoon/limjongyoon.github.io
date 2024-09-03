@@ -10,7 +10,7 @@
 <body>
 
 <div class="portfolio-item" onclick="window.location.href='#/GuideDogAR.md';">
-    <img src="../images/blind.PNG" alt="Guide Dog AR Image" class="portfolio-image">
+    <img src="../images/blind.png" alt="Guide Dog AR Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Guide Dog AR: A Tactile and Auditory Assisting Device Design with the Motif of a Guide Dog for the Visually Impaired</span>
         Soo Min Shin, <strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
@@ -46,7 +46,7 @@
 #### Tangible Products <!-- {docsify-ignore} -->
 
 <div class="portfolio-item" onclick="window.location.href='#/everpen2.md';">
-    <img src="../images/everpen2.PNG" alt="everpen2" class="portfolio-image">
+    <img src="../images/everpen2.png" alt="everpen2" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">EverPen 2.0</span>
         Exhibited at CES 2024, 2025, Korean Government Minister’s Award<br>
@@ -56,7 +56,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/everpen1.md';">
-    <img src="../images/everpen1.PNG" alt="everpen1" class="portfolio-image">
+    <img src="../images/everpen1.png" alt="everpen1" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">EverPen 1.0</span>
         Government Investment Secured, Exhibited at Korea Electronics Show 2023<br>
@@ -66,7 +66,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/Idealavor.md';">
-    <img src="../images/Idealavor.PNG" alt="Idealavor Image" class="portfolio-image">
+    <img src="../images/Idealavor.png" alt="Idealavor Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Idealavor: Multi-Modality Eating Texture Haptic Device</span>
         Electronics and Telecommunications Research Institute <br>
@@ -138,7 +138,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/BLE.md';">
-    <img src="../images/ble2.PNG" alt="BLE Interior Positioning Image" class="portfolio-image">
+    <img src="../images/BLE2.png" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
         National Museum of Korea Project (2020) <br>
