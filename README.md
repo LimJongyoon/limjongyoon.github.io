@@ -161,23 +161,5 @@
 
 ## others <!-- {docsify-ignore} -->
 
-<script>
-function toggleText(link) {
-    event.stopPropagation(); // 이벤트 버블링을 막아 부모 요소의 클릭 이벤트가 실행되지 않도록 함
-    var summary = link.previousElementSibling;
-    if (summary.style.whiteSpace === "nowrap") {
-        summary.style.whiteSpace = "normal";
-        summary.style.overflow = "visible";
-        summary.style.textOverflow = "clip";
-        link.innerText = " ";
-    } else {
-        summary.style.whiteSpace = "nowrap";
-        summary.style.overflow = "hidden";
-        summary.style.textOverflow = "ellipsis";
-        link.innerText = "More";
-    }
-}
-</script>
-
 </body>
 </html>
