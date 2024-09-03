@@ -101,7 +101,7 @@
 #### Arts and Games <!-- {docsify-ignore} -->
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/MMCA.md';">
-    <img src="../images/mmca.png" alt="MMCA Image" class="portfolio-image">
+    <img src="../images/MMCA.png" alt="MMCA Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">AI Docent</span>
         National Museum of Modern and Contemporary Art (MMCA) <br>
@@ -120,7 +120,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/Stern.md';">
-    <img src="../images/stern.png" alt="Stern Image" class="portfolio-image">
+    <img src="../images/Stern.png" alt="Stern Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Stern: Interactive Lighting Art</span>
        Concept Design & Hardware Development <br><br>
@@ -138,7 +138,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/BLE.md';">
-    <img src="../images/ble.PNG" alt="BLE Interior Positioning Image" class="portfolio-image">
+    <img src="../images/ble2.PNG" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
         National Museum of Korea Project (2020) <br>
