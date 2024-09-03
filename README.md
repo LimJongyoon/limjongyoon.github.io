@@ -128,6 +128,15 @@
     </div>
 </div>
 
+<div class="portfolio-item" onclick="window.location.href='#/jp/Stern.md';">
+    <img src="../images/space2.png" alt="Starbound Odyssey Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Starbound Odyssey</span>
+       Concept Design, Texturing, Shading & Software Development <br><br>
+        <span class="summary">"Starbound Odyssey" is a VR game that immerses players in the experience of a spacewalk, with a focus on toon shading and texturing. The game features a vibrant, cartoon-like aesthetic that contrasts with the realistic physics of space, creating a unique visual style. Players explore beautifully textured cosmic environments, drifting among stars and interacting with celestial objects, all within a richly detailed and stylized universe.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
 <div class="portfolio-item" onclick="window.location.href='#/jp/HotelMeta.md';">
     <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
     <div class="portfolio-text">

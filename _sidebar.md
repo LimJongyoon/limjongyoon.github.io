@@ -16,6 +16,7 @@
     - - [Generative AI Docent](MMCA.md) 
     - - [BearHands](BearHands.md)
     - - [Stern](Stern.md)
+    - - [Starbound Odyssey](StarboundOdyssey.md)
     - - [Hotel Meta](HotelMeta.md)
     - - [BLE Interior positioning base, AR platform...](BLE.md)
     - - [Eliminate the sense of heterogeneity of VR devices...](vrfilms.md)
