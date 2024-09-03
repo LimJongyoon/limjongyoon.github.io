@@ -20,7 +20,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/HapTug.md';">
-    <img src="../images/haptug.PNG" alt="HapTug Image" class="portfolio-image">
+    <img src="../images/haptug.png" alt="HapTug Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">HapTug: Force-Feedback Haptic Device for Representation of Tugs in Virtual Reality</span>
         <strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
