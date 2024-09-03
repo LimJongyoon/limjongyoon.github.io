@@ -1,7 +1,7 @@
 .portfolio-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     border: 1px solid #ccc;
     padding: 15px;
     border-radius: 5px;
@@ -21,13 +21,21 @@
 }
 
 .portfolio-title {
-    font-size: 1.3em; /* 제목의 크기를 키웁니다 */
+    font-size: 1.2em; /* 제목의 크기를 키웁니다 */
     display: block;
     margin-bottom: 1px;
     font-weight: bold; /* 제목을 굵게 표시 */
 }
 
+.portfolio-middle {
+    font-size: 1.0em;
+    display: block;
+    margin-bottom: 0px;
+    font-style: italic; /* 텍스트를 기울임 */
+    color: #555; /* 텍스트 색상을 회색으로 변경 */
+}
 .summary {
+    font-size: 0.9em;
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
