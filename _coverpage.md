@@ -3,6 +3,7 @@
 <img src="images/me2.png" width="200px" alt="LJY"></img><br/>
 
  <span style="font-size: 36px;"> **Lim, Jongyoon**</span><span style="font-size: 15px;">[lɪm dʒɔŋ jun]</span> 
+<br>(he/him/his)<br>
 
 <span style="font-size: 16px;">**HCI researcher & Co-founder of&nbsp;**<a href="http://www.alamvr.com/" style="text-decoration:none; color:#1a73e8;">
   <img src="icons/ALAMBlue.png" alt="ALAM" style="height:15px; vertical-align:-2px;"/>

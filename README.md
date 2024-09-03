@@ -1,102 +1,183 @@
-## Paper <!-- {docsify-ignore} -->
-##### Guide Dog AR: A Tactile and Auditory Assisting Device Design with the Motif of a Guide Dog for the Visually Impaired
+## Publications <!-- {docsify-ignore} -->
 
-##### Force-Feedback Haptic Device for Representation of Tugs in Virtual Reality
-J Lim, Y Choi
-Electronics 11 (11), 1730
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
 
-This study proposes and evaluates a force-feedback haptic device, HapTug, designed to replicate the sensation of tool usage in virtual reality (VR) environments. The device is connected to a VR bundle controller and simulates the centrifugal forces and reactive forces felt by the user when swinging or thrusting a tool, providing a more realistic haptic feedback experience.
-Background:
-* Need for Force-Feedback Haptic Devices: Traditional VR bundle controllers use limited vibration motors to implement haptic feedback, which is insufficient for enhancing realism, especially in VR simulations that involve tool usage. Stronger and more precise haptic feedback is necessary in these scenarios.
-* Objective: HapTug aims to increase realism and immersion in VR by replicating the inertia or centrifugal force felt when users swing tools and the reactive force experienced when tools make contact with objects in the virtual environment.
-Device Design:
-* Mechanical Structure: HapTug is designed with 2 degrees of freedom (2DoF) to provide the pushing and pulling forces based on the user's wrist movements. This allows users to experience the physical forces encountered in various tool usage scenarios.
-* Control System: The device is controlled by two 6V servo motors, which automatically adjust the controller's position based on user movements. It connects to the Oculus Quest 2 HMD via an Arduino-based control system.
-Methods and Results:
-* Experiment 1: Initial Testing: Eight participants were tested using HapTug to evaluate the force felt when swinging or thrusting tools in a VR environment. The results confirmed that users could perceive realistic tool usage sensations.
-* Experiment 2: User Experience Evaluation: Thirty participants compared HapTug with a standard VR controller, evaluating realism, immersion, and enjoyment. Scores were significantly higher in all categories when using HapTug.
-* Experiment 3: Interaction Evaluation: Forty-one participants were assessed for the range and frequency of interactions with and without HapTug. The results showed that HapTug increased the range and frequency of interactions, leading to deeper user immersion.
-Conclusions and Implications:
-HapTug has been proven to significantly enhance haptic feedback in VR environments, greatly improving user experience. It is particularly effective in providing realistic force feedback during tool usage, thereby increasing user immersion. However, improvements are needed in areas such as battery consumption, adjustment for different hand sizes, and wearing comfort. Addressing these issues could greatly expand HapTug's applicability in various fields such as healthcare, industry, and education.
-Contribution of the Study:
-This research makes a significant contribution to the advancement of VR technology and the enhancement of user experience by designing and empirically evaluating a force-feedback haptic device that more realistically simulates the sensation of tool usage in VR environments.
+<div class="portfolio-item" onclick="window.location.href='#/GuideDogAR.md';">
+    <img src="../images/blind.PNG" alt="Guide Dog AR Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Guide Dog AR: A Tactile and Auditory Assisting Device Design with the Motif of a Guide Dog for the Visually Impaired</span>
+        Soo Min Shin, <strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
+        International Journal of Human–Computer Interaction, 1-14 <br><br>
+        <span class="summary">This study introduces “Guide Dog AR,” an AR device inspired by the handle of a guide dog’s harness. The device and its associated content aim to provide visually impaired individuals with the experience of walking with a guide dog, serving as both a practical tool and a foundation for entertainment. The device offers an augmented walking experience through tactile and auditory sensations. The device was assessed with the factors "effectiveness" and "immersiveness." The evaluation for effectiveness involved creating a simulated virtual path. The level of immersion was evaluated based on how deeply users were engrossed in the augmented content provided by the device. The success rate was determined by how well users navigated this virtual path using the device’s feedback. In assessing immersion, in-depth interviews were conducted with visually impaired participants who experienced the virtual path...</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
 
-##### BirdVR :UX design that enhances the connection between the form of the VR controller and the interaction within the content
-KM Bang, J Lim, H Jun, H Jo, JH Chu
-HCI 2022 Creative Award Proceeding(Conference Paper) / Interactive Art Gallery
+<div class="portfolio-item" onclick="window.location.href='#/HapTug.md';">
+    <img src="../images/haptug.PNG" alt="HapTug Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">HapTug: Force-Feedback Haptic Device for Representation of Tugs in Virtual Reality</span>
+        <strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
+        Electronics 11 (11), 1730 <br><br>
+        <span class="summary">In this study, a haptic device is proposed for virtual reality (VR). The proposed haptic device is linked to the bundle controller of a VR device. The device proposed in this study was a force-feedback device that focused on the haptic felt by the hand rather than the feeling of the tool colliding with the object. The device provides the feeling of centrifugal or inertial forces due to the weight of the tool when the user swings the tool, and the feeling of reaction force when a user stabs or pokes an object with the tool. The force generated by a haptic device of the linked type was measured and examined to determine whether this feeling of actually using a tool in the virtual environment is provided. In addition, we conducted two types of experiments to evaluate this haptic. First, VR content was created for user experience, and a survey was conducted with 30 experimenters to compare the bundle controllers and haptic device, called HapTug, in terms of realism, immersion, and enjoyment. The survey results demonstrated that the realism, immersion, and enjoyment increased compared to those using the bundle controller alone. Second, 41 experimenters were allowed to play freely in a virtual environment for six sessions, 30 seconds each. They had to press the button to control 30 seconds and the device they wore turned on and off randomly every session. During the experience, their playback time, number of interactions, and range were measured. As a result, when the device activated, experimenters felt the time was shorter and showed widespread movements. Thus, it was proven that the proposed linked-type haptic device effectively delivered the feeling of wielding a tool, allowing the user to feel the virtual object coming in and going out of the hand when interacting with it. Moreover, three possibilities were found in the experiments. Previous VR experience times have little to do with the satisfaction of haptic use, users have low expectations for haptic realism, and users interact more actively with haptic devices.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
 
-The BirdVR project is a UI/UX design study focused on creating a bird-shaped VR controller specifically for seniors over 65 years old. The goal is to help this demographic easily learn and operate VR content without compromising their sense of immersion.
-Key Problems Addressed:
-1. Difficulty with Traditional Controllers: Seniors often find it challenging to use standard VR controllers.
-2. Disrupted Immersion: Complex interactive functions in VR content can disturb the sense of stability and immersion for elderly users.
-Solutions and Features:
-* Bird-Shaped Controller: The controller is designed to resemble a bird, providing two main benefits:
-    * Ease of Learning: The bird-like form aligns with the VR environment, making the interface intuitive for seniors.
-    * Psychological Stability: The act of petting the bird-shaped controller mimics the soothing experience of interacting with a real bird, contributing to a sense of psychological comfort.
-* Interactive Touch Areas: The controller is wrapped with conductive thread, allowing different game functions to be triggered based on where the user touches. This feature enhances interactivity while keeping the experience simple.
-* Removed Motorized Wings: Although initially designed with motorized wings, they were removed after feedback indicated they detracted from the experience.
-Application:
-* The BirdVR controller is currently in use at a welfare center in Gogang-dong, Seoul, where it helps seniors engage with psychological healing VR content.
-Recognition:
-* The project was presented as part of the HCI Korea 2022 Creative Award and is documented in the Interactive Art Gallery.
+<div class="portfolio-item" onclick="window.location.href='#/BirdVR.md';">
+    <img src="../images/birdVR.png" alt="BirdVR Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">BirdVR: UX design that enhances the connection between the form of the VR controller and the interaction within the content</span>
+        Kyoungmin Bang,<strong> Jongyoon Lim</strong>, Haree Jun, Hangyeol Jo, Jean Ho Chu<br>
+        HCIK(HCI Korea)(2022): 813-815 <br><br>
+        <span class="summary">The BirdVR project is a UI/UX design initiative aimed at developing a bird-shaped VR controller tailored specifically for seniors aged 65 and older. This project addresses two key challenges: the difficulty seniors experience with traditional VR controllers and the disruption of immersion caused by complex interactive functions. The BirdVR controller offers an innovative solution by adopting a bird-like form, which serves dual purposes: it simplifies the learning process by aligning with the VR environment and enhances psychological stability through the soothing experience of petting the bird-shaped device. The controller is equipped with interactive touch areas, made possible by conductive thread, allowing for intuitive and simplified interaction within VR environments. Based on user feedback, motorized wings initially integrated into the design were removed to preserve the simplicity and comfort of the experience. The BirdVR controller is currently implemented at a welfare center in Gogang-dong, Seoul, where it is utilized in psychological healing VR content for seniors. The project has been recognized at HCI Korea 2022, where it was featured in the Interactive Art Gallery as part of the Creative Award showcase.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+          </div>
+</div>
 
+<br><br>
 
 ## Project <!-- {docsify-ignore} -->
-#### Tangible Products 
-##### EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0EverPen2.0
-##### EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0EverPen1.0
-##### Smart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-Smart CradleSmart CradleSmart CradleSmart CradleSmart CradleSmart Cradle
-##### Table-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
-Table-itTable-itTable-itTable-itTable-itTable-it
+
+#### Tangible Products
+
+<div class="portfolio-item" onclick="window.location.href='#/everpen2.md';">
+    <img src="../images/everpen2.PNG" alt="everpen2" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">EverPen 2.0</span>
+        Exhibited at CES 2024, 2025, Korean Government Minister’s Award<br>
+      Concept Design, Circuit Design, Hardware/Software Development, Sales<br><br>
+        <span class="summary">EverPen 2.0 is poised to revolutionize the spatial computing landscape, just as the mouse transformed desktop computing and the Apple Pencil reshaped the tablet market. Moving beyond the limitations of traditional VR controllers, EverPen 2.0 operates independently, accurately tracking its position in a 3D coordinate system without the need for external stations. By combining advanced hand tracking with integrated touch and physical sensors, EverPen 2.0 delivers unmatched precision and freedom in virtual environments. As the next-generation HID, EverPen 2.0 is set to redefine how we interact with virtual reality, making spatial computing more intuitive, efficient, and immersive than ever before..</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/everpen1.md';">
+    <img src="../images/everpen1.PNG" alt="everpen1" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">EverPen 1.0</span>
+        Government Investment Secured, Exhibited at Korea Electronics Show 2023<br>
+       Circuit Design, Hardware/Software Development<br><br>
+        <span class="summary">EverPen 1.0 is a VR accessory designed to enhance the input experience in virtual reality by serving as a pen-like input device. By combining with a VR controller, it offers a more natural and intuitive way to interact with virtual environments compared to the traditional VR controller's shooting button. While VR pens have been developed previously to address this issue, they often have limitations, such as being limited to specific spaces or lacking compatibility with existing VR controllers. In contrast, the EverPen 1.0 can seamlessly integrate with a VR controller, allowing users to write or draw in virtual reality while wirelessly transmitting and displaying the information on the head-mounted display (HMD). This innovative solution eliminates the need for a separate positioning camera system, which was previously required in limited-space setups. With the EVER Pen, users can enjoy a more immersive and fluid VR interaction experience while utilizing familiar pen-like input gestures.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/Idealavor.md';">
+    <img src="../images/Idealavor.PNG" alt="Idealavor Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Idealavor: Multi-Modality Eating Texture Haptic Device</span>
+        Electronics and Telecommunications Research Institute <br>
+      Concept Design & Industrial Design<br><br>
+        <span class="summary">
+            The Idealavor project explores the recreation of food textures in the food industry, focusing on how eating texture influences satiety and taste perception. Traditional attempts to replicate the texture of high-quality ingredients with cheaper alternatives have often failed due to differences in price and texture. This project addresses these challenges by leveraging multi-modality approaches—combining visual, auditory, and haptic feedback to enhance the perception of food texture. The device includes texture learning tailored to individual chewing patterns, visual augmentation using color, auditory enhancement of chewing sounds, and EMS (Electrical Muscle Stimulation) to simulate the feeling of chewing directly on the jaw muscles.
+        </span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/cradle.md';">
+    <img src="../images/cradle.png" alt="cradle" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Smart Cradle</span>
+        AI-driven Health Monitoring for Newborns<br>
+      Concept Design, Industrial Design, Circuit Design, Hardware/Software Development, Sales<br><br>
+        <span class="summary">The Smart Cradle is designed to prevent sudden infant death. While wearable healthcare devices are widely available for adults, there is a significant lack of such devices for newborns, despite the critical importance of monitoring their health. The Smart Cradle and Smart Patch bridge this gap by leveraging advanced AI-driven algorithms to monitor key health indicators such as facial expressions, weight, air quality, oxygen saturation (SpO2), oxygen levels, and pulse. This comprehensive monitoring system enables the prediction of dietary needs, bowel movements, and overall health status, making it an essential tool for safeguarding the well-being of newborns.</span> 
+        <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/table-it.md';">
+    <img src="../images/tableit.png" alt="Table-It Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Table-It: Motion and Color Recognition AR Table</span>
+         Korean Government Minister’s Award, Efesta2017 (KOREA) <br>
+      Concept Design, Software Development <br><br>
+        <span class="summary">The smart table using vision recognition and a projector won the Minister Award at 2017 EFESTA. A smart table was created where people can enjoy various contents like a giant tablet. Using Python, a mouse cursor is implemented by hand motion recognition, and clicking is possible by folding and unfolding the hand. Thus, users can operate all programs typically used on a computer. Additionally, through color recognition, dedicated applications like table tennis and billiards, which cannot be enjoyed on a regular tablet, were developed.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
 
 #### Arts and Games <!-- {docsify-ignore} -->
-##### MMCA
-##### BearHands
-##### Stern
-##### Hotel Meta
-##### BLE Interior positioning base, AR platform that becomes a work of Art
-##### Eliminate the sense of heterogeneity of VR devices by wearing goggles in a virtual environment
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/MMCA.md';">
+    <img src="../images/mmca.png" alt="MMCA Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">AI Docent</span>
+        National Museum of Modern and Contemporary Art (MMCA) <br>
+      Concept Design, UX/UI Design & Software Development<br>
+        <span class="summary">An innovative AR platform that transforms multimedia contemporary art into an immersive, interactive experience. Utilizing BLE interior positioning, it creates an engaging environment where each artwork becomes a unique interactive experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/BearHands.md';">
+    <img src="../images/bearhands.png" alt="BearHands Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">BearHands</span>
+        3D Modeling, UX/UI Design & Software Development <br><br>
+        <span class="summary">BearHands is a wearable device that enhances user interaction in AR/VR environments by providing haptic feedback and gesture recognition, making virtual experiences feel more natural and immersive.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/Stern.md';">
+    <img src="../images/stern.png" alt="Stern Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Stern: Interactive Lighting Art</span>
+       Concept Design & Hardware Development <br><br>
+        <span class="summary">Stern is an interactive lighting installation that responds to human presence and movement, creating a dynamic art piece that evolves with its environment, integrating light and motion into an artistic experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/HotelMeta.md';">
+    <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Hotel Meta: Virtual Hospitality Experience</span>
+		Hardware Development <br><br>
+        <span class="summary">Hotel Meta redefines hospitality by creating a fully immersive virtual hotel experience, where users can explore, interact, and engage with a digital environment that mirrors real-world luxury hotels.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/BLE.md';">
+    <img src="../images/ble.PNG" alt="BLE Interior Positioning Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
+        National Museum of Korea Project (2020) <br>
+      Concept Design, UX/UI Design & Software Development<br><br>
+        <span class="summary">This project leverages BLE (Bluetooth Low Energy) technology to create an innovative AR platform within museums and exhibition halls. By implementing precise interior positioning, the platform enhances visitor experience by dynamically generating AR content based on visitor movement and interaction data. The AR installations adapt to the frequency of footsteps, creating a living, evolving art piece that grows and changes with each visitor's path. The system also integrates social media interaction by displaying Instagram photos related to the exhibition, creating a unique digital guestbook that enriches the physical space with user-generated content.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/jp/vrfilms.md';">
+    <img src="../images/vrfilm.png" alt="VR Films Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Eliminate the Sense of Heterogeneity of VR Devices by Wearing Goggles in a Virtual Environment</span>
+        KT Super VR Contest (2020) <br>
+      Concept Design & Software Development<br><br>
+        <span class="summary">Virtual reality refers to an interface between a computer and a human that creates a specific environment through 3D simulation, allowing users to interact with a simulated world in a spatial and temporal experience. In this project, traditional film narratives were adapted into VR films, allowing viewers to explore and interact with the story in a 360-degree environment. By wearing goggles in the virtual world, users experience a seamless integration of VR devices, eliminating the sense of disconnect typically felt in virtual environments. The project aims to compare and contrast conventional films with VR adaptations, providing insights into effective storytelling techniques in virtual reality.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
 
 ## CV <!-- {docsify-ignore} -->
+
 ## others <!-- {docsify-ignore} -->
+
+<script>
+function toggleText(link) {
+    event.stopPropagation(); // 이벤트 버블링을 막아 부모 요소의 클릭 이벤트가 실행되지 않도록 함
+    var summary = link.previousElementSibling;
+    if (summary.style.whiteSpace === "nowrap") {
+        summary.style.whiteSpace = "normal";
+        summary.style.overflow = "visible";
+        summary.style.textOverflow = "clip";
+        link.innerText = " ";
+    } else {
+        summary.style.whiteSpace = "nowrap";
+        summary.style.overflow = "hidden";
+        summary.style.textOverflow = "ellipsis";
+        link.innerText = "More";
+    }
+}
+</script>
+
+</body>
+</html>

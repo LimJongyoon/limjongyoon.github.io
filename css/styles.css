@@ -1,0 +1,84 @@
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-image {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.portfolio-text {
+    max-width: calc(100% - 170px);
+}
+
+.portfolio-title {
+    font-size: 1.3em; /* 제목의 크기를 키웁니다 */
+    display: block;
+    margin-bottom: 1px;
+    font-weight: bold; /* 제목을 굵게 표시 */
+}
+
+.summary {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+}
+
+/* PC에서 요약이 3줄 보이게 설정 */
+@media only screen and (min-width: 601px) {
+    .summary {
+        -webkit-line-clamp: 3; /* 3줄로 제한 */
+    }
+}
+
+/* 모바일 화면에서 상하 배치 및 요약 텍스트 길이 조절 */
+@media only screen and (max-width: 600px) {
+    .portfolio-item {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.9em; /* 모바일에서 텍스트 크기를 0.8배로 줄임 */
+    }
+
+    .portfolio-image {
+        margin: 0 auto 10px auto; /* 상하좌우 중앙 정렬 */
+        margin-bottom: 10px;
+        width: 50%; /* 이미지를 화면에 꽉 채우고 싶다면 width: 100%;로 설정 */
+    }
+
+    .portfolio-text {
+        max-width: 100%;
+    }
+
+    .summary {
+        -webkit-line-clamp: 1; /* 모바일에서는 1줄로 제한 */
+        max-width: 100%; /* 요약 텍스트의 길이를 조정하세요 */
+    }
+}
+
+/* 순차적으로 색상이 변경되는 애니메이션 정의 */
+@keyframes colorChange {
+    0% { background-color: #C8E6C9; } /* 파스텔 그린 */
+    15% { background-color: #B3E5FC; } /* 파스텔 블루 */
+    30% { background-color: #D1C4E9; } /* 파스텔 퍼플 */
+    45% { background-color: #FFCCBC; } /* 파스텔 오렌지 */
+    60% { background-color: #FFD1DC; } /* 파스텔 핑크 */
+    75% { background-color: #FFECB3; } /* 파스텔 옐로우 */
+    90% { background-color: #B2DFDB; } /* 파스텔 민트 */
+    100% { background-color: #C8E6C9; } /* 파스텔 그린 */
+}
+
+/* 마우스를 올릴 때 애니메이션이 실행되도록 설정 */
+.portfolio-item:hover {
+    animation: colorChange 3s infinite;
+}
