@@ -102,7 +102,7 @@
     <img src="../images/MMCA.png" alt="MMCA Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">AI Docent</span>
-        <span class="portfolio-middle">National Museum of Modern and Contemporary Art (MMCA)<br>
+        <span class="portfolio-middle">IOS App, National Museum of Modern and Contemporary Art (MMCA)<br>
         Concept Design, UX/UI Design & Software Development</span><br>
         <span class="summary">An innovative AR platform that transforms multimedia contemporary art into an immersive, interactive experience. Utilizing BLE interior positioning, it creates an engaging environment where each artwork becomes a unique interactive experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
@@ -112,6 +112,7 @@
     <img src="../images/bearhands.png" alt="BearHands Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BearHands</span>
+        <span class="portfolio-middle">Game</span>
         <span class="portfolio-middle">3D Modeling, UX/UI Design & Software Development</span><br>
         <span class="summary">BearHands is a wearable device that enhances user interaction in AR/VR environments by providing haptic feedback and gesture recognition, making virtual experiences feel more natural and immersive.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
@@ -121,6 +122,7 @@
     <img src="../images/Stern.png" alt="Stern Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Stern: Interactive Lighting Art</span>
+        <span class="portfolio-middle">Exhibition</span>
         <span class="portfolio-middle">Concept Design & Hardware Development</span><br>
         <span class="summary">Stern is an interactive lighting installation that responds to human presence and movement, creating a dynamic art piece that evolves with its environment, integrating light and motion into an artistic experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
@@ -130,7 +132,8 @@
     <img src="../images/space2.png" alt="Starbound Odyssey Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Starbound Odyssey</span>
-        <span class="portfolio-middle">Concept Design, Texturing, Shading & Software Development</span><br>
+        <span class="portfolio-middle">VR Game</span>
+      <span class="portfolio-middle">Concept Design, Texturing, Shading & Software Development</span><br>
         <span class="summary">"Starbound Odyssey" is a VR game that immerses players in the experience of a spacewalk, with a focus on toon shading and texturing. The game features a vibrant, cartoon-like aesthetic that contrasts with the realistic physics of space, creating a unique visual style. Players explore beautifully textured cosmic environments, drifting among stars and interacting with celestial objects, all within a richly detailed and stylized universe.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
@@ -138,9 +141,10 @@
 <div class="portfolio-item" onclick="window.location.href='#/jp/HotelMeta.md';">
     <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
     <div class="portfolio-text">
-        <span class="portfolio-title">Hotel Meta: Virtual Hospitality Experience</span>
+        <span class="portfolio-title">Hotel Meta</span>
+        <span class="portfolio-middle">Exhibition</span>
         <span class="portfolio-middle">Hardware Development</span><br>
-        <span class="summary">Hotel Meta redefines hospitality by creating a fully immersive virtual hotel experience, where users can explore, interact, and engage with a digital environment that mirrors real-world luxury hotels.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">This exhibition operates as a digital twin, functioning simultaneously in both the real and virtual worlds through VR. It mirrors the physical space in real-time, and visitors who purchase an NFT link can access additional interactions not included in the main exhibition. The audience experiences the artist’s unconscious through the metaverse, with the hotel symbolizing a space of empathy between the artist’s inner world and the audience. This exhibition provides a unified experience that merges virtual and real environments, exploring new ways for art to engage and communicate with the audience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
 
@@ -148,7 +152,7 @@
     <img src="../images/BLE2.png" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
-        <span class="portfolio-middle">National Museum of Korea Project (2020)<br>
+        <span class="portfolio-middle">Exhibition, National Museum of Korea Project (2020)<br>
         Concept Design, UX/UI Design & Software Development</span><br>
         <span class="summary">This project leverages BLE (Bluetooth Low Energy) technology to create an innovative AR platform within museums and exhibition halls. By implementing precise interior positioning, the platform enhances visitor experience by dynamically generating AR content based on visitor movement and interaction data. The AR installations adapt to the frequency of footsteps, creating a living, evolving art piece that grows and changes with each visitor's path. The system also integrates social media interaction by displaying Instagram photos related to the exhibition, creating a unique digital guestbook that enriches the physical space with user-generated content.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
@@ -158,9 +162,9 @@
     <img src="../images/vrfilm.png" alt="VR Films Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Eliminate the Sense of Heterogeneity of VR Devices by Wearing Goggles in a Virtual Environment</span>
-        <span class="portfolio-middle">KT Super VR Contest (2020)<br>
+        <span class="portfolio-middle">VR Movie, KT Super VR Contest (2020)<br>
         Concept Design & Software Development</span><br>
-        <span class="summary">Virtual reality refers to an interface between a computer and a human that creates a specific environment through 3D simulation, allowing users to interact with a simulated world in a spatial and temporal experience. In this project, traditional film narratives were adapted into VR films, allowing viewers to explore and interact with the story in a 360-degree environment. By wearing goggles in the virtual world, users experience a seamless integration of VR devices, eliminating the sense of disconnect typically felt in virtual environments. The project aims to compare and contrast conventional films with VR adaptations, providing insights into effective storytelling techniques in virtual reality.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">The Glasses is an immersive VR film where the audience interacts with the story in the virtual environment through physical gestures performed in the real world. The film revolves around the relationship between two lovers, with users switching between past and present scenes by wearing and removing virtual sunglasses. This interaction allows the audience to actively participate in the narrative, rather than just passively watching the film. By simulating real-world actions within VR, The Glasses enhances emotional immersion and adds depth to the story. This unique experience makes the storytelling of The Glasses even more engaging.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
 
