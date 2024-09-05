@@ -86,7 +86,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/table-it.md';">
+<div class="portfolio-item" onclick="window.location.href='#/table-it.md';">
     <img src="../images/tableit.png" alt="Table-It Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Table-It: Motion and Color Recognition AR Table</span>
@@ -98,7 +98,7 @@
 
 #### Arts and Games <!-- {docsify-ignore} -->
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/MMCA.md';">
+<div class="portfolio-item" onclick="window.location.href='#/MMCA.md';">
     <img src="../images/MMCA.png" alt="MMCA Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">AI Docent</span>
@@ -108,7 +108,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/BearHands.md';">
+<div class="portfolio-item" onclick="window.location.href='#/BearHands.md';">
     <img src="../images/bearhands.png" alt="BearHands Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BearHands</span>
@@ -118,7 +118,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/Stern.md';">
+<div class="portfolio-item" onclick="window.location.href='#/Stern.md';">
     <img src="../images/Stern.png" alt="Stern Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Stern: Interactive Lighting Art</span>
@@ -128,7 +128,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/Stern.md';">
+<div class="portfolio-item" onclick="window.location.href='#/Stern.md';">
     <img src="../images/space2.png" alt="Starbound Odyssey Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Starbound Odyssey</span>
@@ -138,7 +138,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/HotelMeta.md';">
+<div class="portfolio-item" onclick="window.location.href='#/HotelMeta.md';">
     <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Hotel Meta</span>
@@ -148,7 +148,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/BLE.md';">
+<div class="portfolio-item" onclick="window.location.href='#/BLE.md';">
     <img src="../images/BLE2.png" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
@@ -158,7 +158,7 @@
     </div>
 </div>
 
-<div class="portfolio-item" onclick="window.location.href='#/jp/vrfilms.md';">
+<div class="portfolio-item" onclick="window.location.href='#/vrfilms.md';">
     <img src="../images/vrfilm.png" alt="VR Films Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Eliminate the Sense of Heterogeneity of VR Devices by Wearing Goggles in a Virtual Environment</span>
