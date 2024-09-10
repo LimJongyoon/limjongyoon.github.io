@@ -16,13 +16,9 @@
 
 <a href="https://scholar.google.co.kr/citations?user=5JElU_AAAAAJ&hl=en&oi=sra">
     <img src="icons/GS2.png" alt="GoogleScholar" height="30">
-</a>
-     
-<a href="https://www.linkedin.com/in/jongyoon-lim-b28421210/">
+</a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jongyoon-lim-b28421210/">
     <img src="icons/Linkedin2.png" alt="linkedin" height="30">
-</a>
-     
-<a href="mailto:limjy.kor@gmail.com">
+</a>&nbsp;&nbsp;&nbsp;<a href="mailto:limjy.kor@gmail.com">
     <img src="icons/mailpng.png" alt="mail" height="30">
 </a>
 
