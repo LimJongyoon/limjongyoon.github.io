@@ -10,7 +10,8 @@
   <span style="font-size:16px; color:#1a73e8;">ALAM</span>
 </a></span>
 
-- I hold a Master's degree in Human-Computer Interaction from <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Art & Technology at Sogang University</a>, with a B.Eng. in Electrical Engineering from the <a href="https://eng.ssu.ac.kr" style="color:#1a73e8;">College of Engineering at Soongsil University</a>. I also have experience working as an electrical engineer in the <a href="https://global.canon/en/product/indtech/semicon/" style="color:#1a73e8;">Canon Optics Division</a>.
+- I am currently engaged in research and development as an HCI researcher at <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Sogang University</a>, while concurrently serving as the co-founder and CTO of ALAM. I previously obtained a Master’s degree in Human-Computer Interaction (HCI) from the <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Art & Technology program at Sogang University</a>, and a Bachelor's degree in Electrical Engineering from the <a href="https://eng.ssu.ac.kr" style="color:#1a73e8;">College of Engineering at Soongsil University</a>. Additionally, I have professional experience as a semiconductor engineer within the <a href="https://global.canon/en/product/indtech/semicon/" style="color:#1a73e8;">Canon Optics Division</a>.
+
 
 - <span style="font-size: 14px;">Interests: VR/AR, Games, Haptics, Multi Modal, Robotics</span>
 
