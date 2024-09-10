@@ -10,16 +10,16 @@
   <span style="font-size:16px; color:#1a73e8;">ALAM</span>
 </a></span>
 
-- I am currently engaged in research and development as an HCI researcher at <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Sogang University</a>, while concurrently serving as the co-founder and CTO of ALAM. I previously obtained a Master’s degree in Human-Computer Interaction (HCI) from the <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Art & Technology program at Sogang University</a>, and a Bachelor's degree in Electrical Engineering from the <a href="https://eng.ssu.ac.kr" style="color:#1a73e8;">College of Engineering at Soongsil University</a>. Additionally, I have professional experience as a semiconductor engineer within the <a href="https://global.canon/en/product/indtech/semicon/" style="color:#1a73e8;">Canon Optics Division</a>.
+- I am currently working as an HCI researcher at <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Sogang University</a>, where I am responsible for development tasks. At the same time, I am serving as the co-founder and CTO of <a href="http://www.alamvr.com/" style="color:#1a73e8;">ALAM</a>. I previously obtained a Master’s degree in Human-Computer Interaction (HCI) from the <a href="http://creative.sogang.ac.kr" style="color:#1a73e8;">Art & Technology program at Sogang University</a>, and a Bachelor's degree in Electrical Engineering from the <a href="https://eng.ssu.ac.kr" style="color:#1a73e8;">College of Engineering at Soongsil University</a>. Additionally, I have professional experience as a semiconductor engineer within the <a href="https://global.canon/en/product/indtech/semicon/" style="color:#1a73e8;">Canon Optics Division</a>.
 
 
 - <span style="font-size: 14px;">Interests: VR/AR, Games, Haptics, Multi Modal, Robotics</span>
 
 <a href="https://scholar.google.co.kr/citations?user=5JElU_AAAAAJ&hl=en&oi=sra">
     <img src="icons/GS2.png" alt="GoogleScholar" height="30">
-</a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jongyoon-lim-b28421210/">
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/jongyoon-lim-b28421210/">
     <img src="icons/Linkedin2.png" alt="linkedin" height="30">
-</a>&nbsp;&nbsp;&nbsp;<a href="mailto:limjy.kor@gmail.com">
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:limjy.kor@gmail.com">
     <img src="icons/mailpng.png" alt="mail" height="30">
 </a>
 
