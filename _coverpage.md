@@ -14,7 +14,7 @@
   }
 </style>
 
-<img src="images/me2.png" width="200px" alt="LJY"><br/>
+<img src="images/me3.png" width="160px" alt="LJY"><br/>
 
 <span style="font-size: 36px;"> <strong>Lim, Jongyoon</strong></span><span style="font-size: 15px;">[lɪm dʒɔŋ jun]</span>
 <br>(he/him/his)<br>
