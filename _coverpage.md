@@ -3,13 +3,12 @@
 <style>
   /* Default line spacing for larger screens */
   p {
-    line-height: 1.7 !important;
+    line-height: 1.6 !important;
   }
-
   /* Adjust line spacing for mobile devices */
   @media screen and (max-width: 600px) {
     p {
-      line-height: 1.3 !important;
+      line-height: 1.2 !important;
     }
   }
 </style>
