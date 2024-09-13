@@ -10,7 +10,7 @@
 <body>
 
 ## Publications <!-- {docsify-ignore} -->
-
+#### Papers <!-- {docsify-ignore} -->
 <div class="portfolio-item" onclick="window.location.href='#/GuideDogAR.md';">
     <img src="../images/blind.png" alt="Guide Dog AR Image" class="portfolio-image">
     <div class="portfolio-text">
