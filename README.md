@@ -170,11 +170,9 @@
 
 ## CV <!-- {docsify-ignore} -->
 
-<button class="styled-button" onclick="window.open('https://drive.google.com/file/d/1Z5iMkKDFtcmo19QdyCaWw2mvfd50RyoV/view?usp=sharing', '_blank')">
+<button class="styled-button" onclick="window.open('../CV.pdf', '_blank')">
     <img src="../icons/pdf.png" alt="PDF Icon" class="pdf-icon"> View PDF
 </button>
-
-
 
 ## others <!-- {docsify-ignore} -->
 
