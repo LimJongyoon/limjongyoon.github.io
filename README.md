@@ -170,26 +170,10 @@
 
 ## CV <!-- {docsify-ignore} -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF 미리보기</title>
-    <style>
-        iframe {
-            width: 100%; /* 폭을 80%로 설정 */
-            height: 800px;
-            border: none;
-            display: block;
-            margin: 0 auto; /* 중앙 정렬을 위해 추가 */
-        }
-    </style>
-</head>
-<body>
-    <iframe src="CV.pdf"></iframe>
-</body>
-</html>
+<button class="styled-button" onclick="window.open('https://drive.google.com/file/d/1Z5iMkKDFtcmo19QdyCaWw2mvfd50RyoV/view?usp=sharing', '_blank')">
+    <img src="../icons/pdf.png" alt="PDF Icon" class="pdf-icon"> View PDF
+</button>
+
 
 
 ## others <!-- {docsify-ignore} -->

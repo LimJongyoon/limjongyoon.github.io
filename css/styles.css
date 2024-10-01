@@ -90,3 +90,34 @@
 .portfolio-item:hover {
     animation: colorChange 3s infinite;
 }
+
+/* 버튼 기본 스타일 (흰색 배경) */
+.styled-button {
+    background-color: #FFFFFF; /* 흰색 배경 */
+    color: black; /* 검정색 텍스트 */
+    border: 1px solid #ccc; /* 포트폴리오 아이템과 동일한 테두리 */
+    padding: 15px 32px; /* 패딩 조정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    text-decoration: none; /* 밑줄 제거 */
+    display: inline-block; /* 인라인 블록으로 설정 */
+    font-size: 16px; /* 글꼴 크기 */
+    margin: 10px 0; /* 위 아래 간격 */
+    cursor: pointer; /* 마우스를 올렸을 때 커서 변경 */
+    border-radius: 5px; /* 포트폴리오 아이템과 동일한 둥근 모서리 */
+    transition: background-color 0.3s ease; /* 배경색 전환 효과 */
+    display: flex; /* 로고와 텍스트를 나란히 배치 */
+    align-items: center;
+}
+
+/* PDF 아이콘 스타일 */
+.pdf-icon {
+    width: 20px; /* 아이콘 크기 */
+    height: 20px;
+    margin-right: 10px; /* 텍스트와 아이콘 사이 간격 */
+}
+
+/* 버튼 호버 시 애니메이션 */
+.styled-button:hover {
+    animation: colorChange 3s infinite; /* 호버 시 애니메이션 적용 */
+}
+
