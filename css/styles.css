@@ -48,6 +48,19 @@
     .summary {
         -webkit-line-clamp: 3; /* 3줄로 제한 */
     }
+    .explain {
+        display: block; /* 텍스트 제한 없이 전체 표시 */
+        overflow: visible;
+        -webkit-line-clamp: unset; /* 3줄 제한 해제 */
+    }
+    .explaintop {
+        display: block; /* 텍스트 제한 없이 전체 표시 */
+        overflow: visible;
+        -webkit-line-clamp: unset; /* 3줄 제한 해제 */
+    }
+    .more-btn {
+        display: none;  /* 601px 이상에서는 버튼 숨김 */
+    }
 }
 
 /* 모바일 화면에서 상하 배치 및 요약 텍스트 길이 조절 */
@@ -71,6 +84,24 @@
     .summary {
         -webkit-line-clamp: 1; /* 모바일에서는 1줄로 제한 */
         max-width: 100%; /* 요약 텍스트의 길이를 조정하세요 */
+    }
+
+    .explain{
+        -webkit-line-clamp: 5; /* 모바일에서는 1줄로 제한 */
+        overflow: hidden; /* 넘치는 텍스트 숨기기 */
+    }
+    .explaintop{
+        -webkit-line-clamp: 5; /* 모바일에서는 1줄로 제한 */
+        overflow: hidden; /* 넘치는 텍스트 숨기기 */
+    }
+    .more-btn {
+        clear: both;  /* 버튼을 양쪽 플로팅 요소 아래로 보내기 */
+        margin-left: 1px; /* 텍스트와 버튼 사이에 약간의 여백 추가 */
+        text-decoration: underline; /* 밑줄 표시 (필요 시 제거 가능) */
+        cursor: pointer;  /* 마우스 커서가 버튼 위에서 포인터로 바뀌도록 설정 */
+        display: block;  /* 600px 이하에서 버튼 표시 */
+        margin-top: -0.5 em !important;/* 아래쪽 여백 줄이기 */
+        margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
     }
 }
 
@@ -119,6 +150,28 @@
 /* 버튼 호버 시 애니메이션 */
 .styled-button:hover {
     animation: colorChange 3s infinite; /* 호버 시 애니메이션 적용 */
+}
+
+.explain {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    line-height: 1.2 !important;/* 줄 간격을 1.4로 설정하여 가독성 향상 */
+    max-width: 100%;
+    margin-top: 0em !important;/* 위쪽 여백 줄이기 */
+    margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
+}
+
+.explaintop {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    line-height: 1.2 !important;/* 줄 간격을 1.4로 설정하여 가독성 향상 */
+    max-width: 100%;
+    margin-top: -1.5em !important;/* 위쪽 여백 줄이기 */
+    margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
 }
 
 .hobbies-section {

@@ -181,7 +181,8 @@
 #### Hobbies
 <div class="hobbies-section">
 <div class="hobby-item">
-        <p><strong>Surfing:</strong> I love summer and the ocean, so I started surfing. I'm not very good, but when I catch a wave, it feels like walking on water, and it makes me so happy. And maybe it's the sunshine, but I feel like people at the beach are always kind.</p>
+        <p class="explaintop"><strong>Surfing:</strong> I have a profound love for summer and the ocean, which naturally led me to take up surfing. Each time I’m out on the water, I feel the raw power of nature, and there’s something uniquely exhilarating about floating above the waves. While I’m still honing my skills, those rare moments when I catch a wave feel almost magical, as if I’m walking on water, and it fills me with pure joy. When I’m at the beach, it feels as though the worries of everyday life simply fade away. Perhaps it’s the warmth of the sun, but I’ve always found the people at the beach to be particularly kind and open-hearted. There’s a certain camaraderie among those who share a love for the ocean.</p> <a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
+        
         <div class="hobby-images">
             <img src="../images/surfing1.jpg" alt="Surfing 1" class="hobby-image">
             <img src="../images/surfing2.jpg" alt="Surfing 2" class="hobby-image">
@@ -194,7 +195,7 @@
     </div>
     
     <div class="hobby-item">
-    <p><strong>Fitness:</strong> Weight training not only shapes my body but also serves as a form of meditation for me. The essence of meditation is clearing your mind, and while I'm lifting weights, I can empty my thoughts. It's a part of my journey to becoming a better person.</p>
+    <p class="explain"><strong>Fitness:</strong> Weight training not only helps sculpt my body but also serves as a form of meditation for me. The act of focusing entirely on my physical movements creates a sense of calm, allowing me to clear my mind and center myself. Much like traditional meditation, the essence lies in emptying the mind, and during weight training, I find that I can achieve that state of mental clarity. For me, it’s a vital part of relieving stress and regaining balance. It’s also an essential component of my ongoing journey toward becoming a better version of myself.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
         <div class="hobby-images">
             <img src="../images/fitness1.jpg" alt="Fitness 1" class="hobby-image">
             <img src="../images/fitness2.jpg" alt="Fitness 2" class="hobby-image">
@@ -205,7 +206,7 @@
     </div>
     
     <div class="hobby-item">
-        <p><strong>JP Animation:</strong> I love Japanese animation. Ever since I was a child, I've enjoyed science fiction and fantasy. While I love movies like Star Wars and Marvel, I especially admire how shonen manga heroes are always positive and push through hardships and challenges.</p>
+        <p class="explain"><strong>JP Animation:</strong> I have a deep appreciation for Japanese animation. Its imaginative storytelling and the depth of emotional expression have always captivated me. From a young age, I’ve been drawn to science fiction and fantasy, often immersing myself in worlds of adventure and wonder. While I do enjoy films like Star Wars and Marvel, there’s something uniquely inspiring about the protagonists in shonen manga. Their unwavering optimism and determination to overcome adversity resonate deeply with me. Watching them triumph in the face of hardship has always provided me with a profound sense of inspiration.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
         <div class="hobby-images">
             <img src="../images/animation1.jpg" alt="Animation 1" class="hobby-image">
             <img src="../images/animation2.jpg" alt="Animation 2" class="hobby-image">
@@ -219,7 +220,9 @@
 
 #### Recommended Books
 <div class="books-section">
-I enjoy reading books on neuroscience and evolutionary psychology. When facing challenges in life, understanding the reasons behind them helps reduce my worries, and applying these insights to my life helps me discover a better version of myself
+    <p class="explaintop">I have a deep passion for reading books on neuroscience and evolutionary psychology. Delving into the intricacies of how our brain functions and understanding the evolutionary underpinnings of human behavior provide me with invaluable insights. When life presents its inevitable challenges, comprehending the underlying causes not only alleviates my anxieties but also empowers me to approach situations with greater clarity. This understanding fosters resilience, allowing me to adapt and recover more effectively from adversity. By integrating these revelations into my daily life, I continually evolve and strive to become the best version of myself, enriched with knowledge and deeper self-awareness.</p>
+    <a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
+    <div class="book-item"><div>
     <div class="book-item">
         <img src="../images/sapiens.jpg" alt="Sapiens" class="book-image">
         <span>Sapiens</span>
@@ -237,6 +240,7 @@ I enjoy reading books on neuroscience and evolutionary psychology. When facing c
         <span>Becoming Supernatural</span>
     </div>
 </div>
+
 
 </body>
 </html>

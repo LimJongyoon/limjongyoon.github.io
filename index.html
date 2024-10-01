@@ -64,6 +64,40 @@
             link.innerText = "More";
         }
     }
+
+    function toggleExplainText(link) {
+        var summary = link.previousElementSibling;
+        if (summary.style.display === "-webkit-box" || summary.style.overflow === "hidden") {
+            summary.style.display = "block";
+            summary.style.overflow = "visible";
+            summary.style.textOverflow = "clip";
+            summary.style.webkitLineClamp = "unset";
+            link.innerText = "Show less";
+        } else {
+            summary.style.display = "-webkit-box";
+            summary.style.overflow = "hidden";
+            summary.style.textOverflow = "ellipsis";
+            summary.style.webkitLineClamp = "5";
+            link.innerText = "More";
+        }
+    }
+
+    function handleResize() {
+        var explainText = document.querySelector('.explain');
+        var moreButton = document.querySelector('.explain + a');
+        
+        if (window.innerWidth <= 600) {
+            explainText.style.display = "-webkit-box";
+            moreButton.style.display = "inline"; // 버튼 표시
+        } else {
+            explainText.style.display = "block";
+            moreButton.style.display = "none"; // 버튼 숨김
+        }
+    }
+
+    window.addEventListener('resize', handleResize);
+    window.addEventListener('load', handleResize);
+
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
