@@ -170,6 +170,28 @@
 
 ## CV <!-- {docsify-ignore} -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF 미리보기</title>
+    <style>
+        iframe {
+            width: 100%; /* 폭을 80%로 설정 */
+            height: 800px;
+            border: none;
+            display: block;
+            margin: 0 auto; /* 중앙 정렬을 위해 추가 */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="CV.pdf"></iframe>
+</body>
+</html>
+
+
 ## others <!-- {docsify-ignore} -->
 
 </body>
