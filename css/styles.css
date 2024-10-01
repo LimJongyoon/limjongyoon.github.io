@@ -121,3 +121,39 @@
     animation: colorChange 3s infinite; /* 호버 시 애니메이션 적용 */
 }
 
+.hobbies-section {
+    margin-bottom: 30px;
+}
+
+.hobby-item {
+    margin-bottom: 20px;
+}
+
+.hobby-images {
+    display: flex;
+    gap: 10px; /* 이미지 간격 */
+}
+
+.hobby-image {
+    width: 100px; /* 각 이미지 크기 */
+    height: auto;
+}
+
+
+.books-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* 여러 줄로 책이 나열되도록 설정 */
+}
+
+.book-item {
+    text-align: center;
+    width: 150px;
+}
+
+.book-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}

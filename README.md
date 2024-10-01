@@ -40,6 +40,7 @@
         <span class="summary">The BirdVR project is a UI/UX design initiative aimed at developing a bird-shaped VR controller tailored specifically for seniors aged 65 and older. This project addresses two key challenges: the difficulty seniors experience with traditional VR controllers and the disruption of immersion caused by complex interactive functions. The BirdVR controller offers an innovative solution by adopting a bird-like form, which serves dual purposes: it simplifies the learning process by aligning with the VR environment and enhances psychological stability through the soothing experience of petting the bird-shaped device. The controller is equipped with interactive touch areas, made possible by conductive thread, allowing for intuitive and simplified interaction within VR environments. Based on user feedback, motorized wings initially integrated into the design were removed to preserve the simplicity and comfort of the experience. The BirdVR controller is currently implemented at a welfare center in Gogang-dong, Seoul, where it is utilized in psychological healing VR content for seniors. The project has been recognized at HCI Korea 2022, where it was featured in the Interactive Art Gallery as part of the Creative Award showcase.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
+<br>
 
 ## Project <!-- {docsify-ignore} -->
 
@@ -167,14 +168,75 @@
         <span class="summary">The Glasses is an immersive VR film where the audience interacts with the story in the virtual environment through physical gestures performed in the real world. The film revolves around the relationship between two lovers, with users switching between past and present scenes by wearing and removing virtual sunglasses. This interaction allows the audience to actively participate in the narrative, rather than just passively watching the film. By simulating real-world actions within VR, The Glasses enhances emotional immersion and adds depth to the story. This unique experience makes the storytelling of The Glasses even more engaging.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
+<br>
 
 ## CV <!-- {docsify-ignore} -->
 
 <button class="styled-button" onclick="window.open('../CV.pdf', '_blank')">
     <img src="../icons/pdf.png" alt="PDF Icon" class="pdf-icon"> View PDF
 </button>
+<br><br>
 
-## others <!-- {docsify-ignore} -->
+## Others <!-- {docsify-ignore} -->
+#### Hobbies
+<div class="hobbies-section">
+<div class="hobby-item">
+        <p><strong>Surfing:</strong> I love summer and the ocean, so I started surfing. I'm not very good, but when I catch a wave, it feels like walking on water, and it makes me so happy. And maybe it's the sunshine, but I feel like people at the beach are always kind.</p>
+        <div class="hobby-images">
+            <img src="../images/surfing1.jpg" alt="Surfing 1" class="hobby-image">
+            <img src="../images/surfing2.jpg" alt="Surfing 2" class="hobby-image">
+            <img src="../images/surfing3.jpg" alt="Surfing 3" class="hobby-image">
+            <img src="../images/surfing4.jpg" alt="Surfing 4" class="hobby-image">
+            <img src="../images/surfing5.jpg" alt="Surfing 5" class="hobby-image">
+            <img src="../images/surfing6.jpg" alt="Surfing 6" class="hobby-image">
+        </div>
+        <br>
+    </div>
+    
+    <div class="hobby-item">
+    <p><strong>Fitness:</strong> Weight training not only shapes my body but also serves as a form of meditation for me. The essence of meditation is clearing your mind, and while I'm lifting weights, I can empty my thoughts. It's a part of my journey to becoming a better person.</p>
+        <div class="hobby-images">
+            <img src="../images/fitness1.jpg" alt="Fitness 1" class="hobby-image">
+            <img src="../images/fitness2.jpg" alt="Fitness 2" class="hobby-image">
+            <img src="../images/fitness3.jpg" alt="Fitness 3" class="hobby-image">
+            <img src="../images/fitness4.jpg" alt="Fitness 4" class="hobby-image">
+        </div>
+        <br>
+    </div>
+    
+    <div class="hobby-item">
+        <p><strong>JP Animation:</strong> I love Japanese animation. Ever since I was a child, I've enjoyed science fiction and fantasy. While I love movies like Star Wars and Marvel, I especially admire how shonen manga heroes are always positive and push through hardships and challenges.</p>
+        <div class="hobby-images">
+            <img src="../images/animation1.jpg" alt="Animation 1" class="hobby-image">
+            <img src="../images/animation2.jpg" alt="Animation 2" class="hobby-image">
+            <img src="../images/animation3.png" alt="Animation 3" class="hobby-image">
+            <img src="../images/animation4.jpg" alt="Animation 4" class="hobby-image">
+            <img src="../images/animation5.jpg" alt="Animation 5" class="hobby-image">
+        </div>
+    </div>
+    <br>
+</div>
+
+#### Recommended Books
+<div class="books-section">
+I enjoy reading books on neuroscience and evolutionary psychology. When facing challenges in life, understanding the reasons behind them helps reduce my worries, and applying these insights to my life helps me discover a better version of myself
+    <div class="book-item">
+        <img src="../images/sapiens.jpg" alt="Sapiens" class="book-image">
+        <span>Sapiens</span>
+    </div>
+    <div class="book-item">
+        <img src="../images/limitless.jpg" alt="limitless" class="book-image">
+        <span>limitless</span>
+    </div>
+    <div class="book-item">
+        <img src="../images/evolution.jpg" alt="The Evolution of Desire" class="book-image">
+        <span>The Evolution of Desire</span>
+    </div>
+    <div class="book-item">
+        <img src="../images/supernatural.jpg" alt="Becoming Supernatural" class="book-image">
+        <span>Becoming Supernatural</span>
+    </div>
+</div>
 
 </body>
 </html>
