@@ -61,6 +61,15 @@
     .more-btn {
         display: none;  /* 601px 이상에서는 버튼 숨김 */
     }
+    .book-item {
+        text-align: center;
+        width: 150px; /* 각 이미지 크기 */
+        margin-bottom: 20px;
+    }
+    .hobby-image {
+        width: 100px; /* 각 이미지 크기 */
+        height: auto;
+    }
 }
 
 /* 모바일 화면에서 상하 배치 및 요약 텍스트 길이 조절 */
@@ -102,6 +111,16 @@
         display: block;  /* 600px 이하에서 버튼 표시 */
         margin-top: -0.5 em !important;/* 아래쪽 여백 줄이기 */
         margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
+    }
+    .book-item {
+        flex: 1 1 100px;  /* 각 책 항목이 최소 200px을 차지하며 유연하게 크기가 조정됨 */
+        text-align: center;  /* 텍스트를 가운데 정렬 */
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    .hobby-image {
+        width: 30%;
+        height: auto;
     }
 }
 
@@ -184,29 +203,24 @@
 
 .hobby-images {
     display: flex;
+    flex-wrap: wrap;  /* 화면 크기에 따라 자동으로 줄바꿈 */
     gap: 10px; /* 이미지 간격 */
 }
 
-.hobby-image {
-    width: 100px; /* 각 이미지 크기 */
-    height: auto;
-}
-
-
 .books-section {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap; /* 여러 줄로 책이 나열되도록 설정 */
+    margin-bottom: 0px;
 }
 
-.book-item {
-    text-align: center;
-    width: 150px;
+.book-div {
+    display: flex;  /* Flexbox로 설정 */
+    flex-wrap: wrap;  /* 줄바꿈을 허용 */
+    gap: 20px;  /* 각 책 항목 사이에 간격 추가 */
 }
+
 
 .book-image {
     width: 100px;
     height: auto;
     display: block;
-    margin: 0 auto 10px;
+    margin: 0px auto 10px;
 }

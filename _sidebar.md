@@ -35,4 +35,20 @@
 
 - [**CV**](README.md#cv)
 
-- [**others**](README.md#others)
+- [**Others**](README.md#others)
+- - <details>
+    <summary><a href="#/README?id=Hobbies" style="display: inline;">Hobbies</a></summary>
+    <ul>
+      <li><a href="#/README?id=Hobbies">- Surfing</a></li>
+      <li><a href="#/README?id=Hobbies">- Fitness</a></li>
+      <li><a href="#/README?id=Hobbies">- JP Animation</a></li>
+      </details>
+
+- - <details>
+    <summary><a href="#/README?id=Recommended Books" style="display: inline;">Recommended Books</a></summary>
+    <ul>
+      <li><a href="#/README?id=Recommended Books">- Sapiens</a></li>
+      <li><a href="#/README?id=Recommended Books">- limitless</li>
+      <li><a href="#/README?id=Recommended Books">- The Evolution of Desire</li>
+      <li><a href="#/README?id=Recommended Books">- Becoming Supernatural</li>
+      </details>

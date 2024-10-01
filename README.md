@@ -222,7 +222,9 @@
 <div class="books-section">
     <p class="explaintop">I have a deep passion for reading books on neuroscience and evolutionary psychology. Delving into the intricacies of how our brain functions and understanding the evolutionary underpinnings of human behavior provide me with invaluable insights. When life presents its inevitable challenges, comprehending the underlying causes not only alleviates my anxieties but also empowers me to approach situations with greater clarity. This understanding fosters resilience, allowing me to adapt and recover more effectively from adversity. By integrating these revelations into my daily life, I continually evolve and strive to become the best version of myself, enriched with knowledge and deeper self-awareness.</p>
     <a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
-    <div class="book-item"><div>
+</div>
+
+<div class="book-div">
     <div class="book-item">
         <img src="../images/sapiens.jpg" alt="Sapiens" class="book-image">
         <span>Sapiens</span>
@@ -240,6 +242,7 @@
         <span>Becoming Supernatural</span>
     </div>
 </div>
+
 
 
 </body>
