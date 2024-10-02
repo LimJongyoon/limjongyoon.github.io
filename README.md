@@ -42,7 +42,7 @@
 </div>
 <br>
 
-## Project <!-- {docsify-ignore} -->
+## Projects <!-- {docsify-ignore} -->
 
 #### Tangible Products <!-- {docsify-ignore} -->
 

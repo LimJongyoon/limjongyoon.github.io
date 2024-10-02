@@ -13,10 +13,10 @@
   }
 </style>
 
-<img src="images/me3.png" width="160px" alt="LJY"><br/>
+<img src="images/me3.png" width="160px" alt="LJY" style="margin-bottom: -20px;"><br/>
 
 <span style="font-size: 36px;"> <strong>Lim, Jongyoon</strong></span><span style="font-size: 15px;">[lɪm dʒɔŋ jun]</span>
-<br>(he/him/his)<br>
+<br><span >(he/him/his)<br>
 
 <span style="font-size: 16px;"><strong>HCI researcher & Co-founder of&nbsp;</strong><a href="http://www.alamvr.com/" style="text-decoration:none; color:#1a73e8;">
   <img src="icons/ALAMBlue.png" alt="ALAM" style="height:15px; vertical-align:-2px;"/>
@@ -36,8 +36,26 @@
     <img src="icons/mailpng.png" alt="mail" height="30">
 </a>
 
-[More About Me ⬇](#publications)
+<br><a href="../#/?id=publications" style="text-decoration: none;">
+    <button style="background-color: #6FCF97; color: white; border-radius: 10px; border: none; padding: 10px 20px; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease; position: relative; top: -25px;">
+        Publications
+    </button>
+</a>&nbsp;
+<a href="../#/?id=projects" style="text-decoration: none;">
+    <button style="background-color: #6FCF97; color: white; border-radius: 10px; border: none; padding: 10px 20px; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease; position: relative; top: -25px;">
+        Projects
+    </button>
+</a>&nbsp;
+<a href="../CV.pdf" target="_blank" style="text-decoration: none;">
+    <button style="background-color: #6FCF97; color: white; border-radius: 10px; border: none; padding: 10px 20px; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease; position: relative; top: -25px;">
+        CV
+    </button>
+</a>
 
+<style>
+    button:hover {
+    }
+</style>
 
 <!-- ![color](#f0f0f0) -->
 

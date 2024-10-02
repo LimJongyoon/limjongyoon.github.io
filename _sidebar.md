@@ -8,7 +8,7 @@
     </ul>
     </details>
   
-- [**Project**](README.md#Project)
+- [**Projects**](README.md#Projects)
 - - <details>
     <summary><a href="#/README?id=tangible-products" style="display: inline;">Tangible Products</a></summary>
     <ul>
