@@ -1,3 +1,4 @@
+/* ========== 포트폴리오 아이템 스타일 ========== */
 .portfolio-item {
     display: flex;
     align-items: center;
@@ -34,6 +35,8 @@
     font-style: italic; /* 텍스트를 기울임 */
     color: #555; /* 텍스트 색상을 회색으로 변경 */
 }
+
+/* ========== 요약 텍스트 스타일 ========== */
 .summary {
     font-size: 0.9em;
     display: -webkit-box;
@@ -43,7 +46,7 @@
     max-width: 100%;
 }
 
-/* PC에서 요약이 3줄 보이게 설정 */
+/* ========== 미디어 쿼리: PC에서 요약 텍스트 설정 ========== */
 @media only screen and (min-width: 601px) {
     .summary {
         -webkit-line-clamp: 3; /* 3줄로 제한 */
@@ -72,7 +75,7 @@
     }
 }
 
-/* 모바일 화면에서 상하 배치 및 요약 텍스트 길이 조절 */
+/* ========== 미디어 쿼리: 모바일에서 상하 배치 및 요약 텍스트 길이 조절 ========== */
 @media only screen and (max-width: 600px) {
     .portfolio-item {
         flex-direction: column;
@@ -92,39 +95,43 @@
 
     .summary {
         -webkit-line-clamp: 1; /* 모바일에서는 1줄로 제한 */
-        max-width: 100%; /* 요약 텍스트의 길이를 조정하세요 */
+        max-width: 100%; /* 요약 텍스트의 길이를 조정 */
     }
 
-    .explain{
+    .explain {
         -webkit-line-clamp: 5; /* 모바일에서는 1줄로 제한 */
         overflow: hidden; /* 넘치는 텍스트 숨기기 */
     }
-    .explaintop{
+
+    .explaintop {
         -webkit-line-clamp: 5; /* 모바일에서는 1줄로 제한 */
         overflow: hidden; /* 넘치는 텍스트 숨기기 */
     }
+
     .more-btn {
         clear: both;  /* 버튼을 양쪽 플로팅 요소 아래로 보내기 */
         margin-left: 1px; /* 텍스트와 버튼 사이에 약간의 여백 추가 */
-        text-decoration: underline; /* 밑줄 표시 (필요 시 제거 가능) */
+        text-decoration: underline; /* 밑줄 표시 */
         cursor: pointer;  /* 마우스 커서가 버튼 위에서 포인터로 바뀌도록 설정 */
         display: block;  /* 600px 이하에서 버튼 표시 */
-        margin-top: -0.5 em !important;/* 아래쪽 여백 줄이기 */
-        margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
+        margin-top: -0.5em !important; /* 아래쪽 여백 줄이기 */
+        margin-bottom: 0.5em !important; /* 아래쪽 여백 줄이기 */
     }
+
     .book-item {
         flex: 1 1 100px;  /* 각 책 항목이 최소 200px을 차지하며 유연하게 크기가 조정됨 */
         text-align: center;  /* 텍스트를 가운데 정렬 */
         margin-bottom: -20px;
         margin-top: 20px;
     }
+
     .hobby-image {
         width: 30%;
         height: auto;
     }
 }
 
-/* 순차적으로 색상이 변경되는 애니메이션 정의 */
+/* ========== 애니메이션: 색상이 순차적으로 변경 ========== */
 @keyframes colorChange {
     0% { background-color: #C8E6C9; } /* 파스텔 그린 */
     15% { background-color: #B3E5FC; } /* 파스텔 블루 */
@@ -136,12 +143,12 @@
     100% { background-color: #C8E6C9; } /* 파스텔 그린 */
 }
 
-/* 마우스를 올릴 때 애니메이션이 실행되도록 설정 */
+/* 마우스를 올릴 때 색상이 변경되는 애니메이션 */
 .portfolio-item:hover {
     animation: colorChange 3s infinite;
 }
 
-/* 버튼 기본 스타일 (흰색 배경) */
+/* ========== 버튼 스타일 ========== */
 .styled-button {
     background-color: #FFFFFF; /* 흰색 배경 */
     color: black; /* 검정색 텍스트 */
@@ -171,15 +178,16 @@
     animation: colorChange 3s infinite; /* 호버 시 애니메이션 적용 */
 }
 
+/* ========== 설명 텍스트 스타일 ========== */
 .explain {
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
-    line-height: 1.2 !important;/* 줄 간격을 1.4로 설정하여 가독성 향상 */
+    line-height: 1.2 !important; /* 줄 간격을 1.2로 설정 */
     max-width: 100%;
-    margin-top: 0em !important;/* 위쪽 여백 줄이기 */
-    margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
+    margin-top: 0em !important; /* 위쪽 여백 줄이기 */
+    margin-bottom: 0.5em !important; /* 아래쪽 여백 줄이기 */
 }
 
 .explaintop {
@@ -187,12 +195,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
-    line-height: 1.2 !important;/* 줄 간격을 1.4로 설정하여 가독성 향상 */
+    line-height: 1.2 !important; /* 줄 간격을 1.2로 설정 */
     max-width: 100%;
-    margin-top: -1.5em !important;/* 위쪽 여백 줄이기 */
-    margin-bottom: 0.5em !important;/* 아래쪽 여백 줄이기 */
+    margin-top: -1.5em !important; /* 위쪽 여백 줄이기 */
+    margin-bottom: 0.5em !important; /* 아래쪽 여백 줄이기 */
 }
 
+/* ========== 취미 및 책 섹션 스타일 ========== */
 .hobbies-section {
     margin-bottom: 30px;
 }
@@ -217,10 +226,97 @@
     gap: 20px;  /* 각 책 항목 사이에 간격 추가 */
 }
 
-
 .book-image {
     width: 100px;
     height: auto;
     display: block;
     margin: 0px auto 10px;
 }
+
+/* ========== 비디오 컨테이너 스타일 ========== */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 비율을 위한 패딩 (높이) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 이미지나 비디오가 컨테이너에 맞춰지도록 설정 */
+}
+
+
+/* ========== 백버튼 컨테이너 스타일 ========== */
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ========== 백버튼 스타일 ========== */
+.back-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ========== 백버튼 호버 효과 ========== */
+.back-button:hover {
+    background-color: #45a049;
+}
+
+/* ========== 디테일 본문 스타일 ========== */
+.detail {
+    margin-top: 100
+    color: #333;  /* 텍스트 색상 */
+    text-align: justify;  /* 양쪽 정렬 */
+    background-color: #f9f9f9;  /* 배경 색상 */
+    border-radius: 10px;  /* 모서리를 둥글게 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* 그림자 효과 */
+    word-wrap: break-word;  /* 긴 단어가 줄바꿈되도록 처리 */
+}
+/* ========== 디테일 텍스트 스타일 ========== */
+.detaily {
+    font-size: 1.2 em;
+    line-height: 1.5;  /* 줄 간격 */
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+}
+
+/* ========== 디테일 본문: PC에서 가독성 향상 ========== */
+@media only screen and (min-width: 601px) {
+    .detail {
+        padding: 20px !important;  /* 패딩을 늘려 여백 확보 */
+    }
+    .detaily {
+        font-size: 1.2 em;
+        line-height: 1.5;
+    }
+}
+
+/* ========== 디테일 본문: 모바일에서 스타일 조정 ========== */
+@media only screen and (max-width: 600px) {
+    .detail {
+        padding: 10px !important;  /* 패딩을 줄여 공간 확보 */
+    }
+    .detaily {
+        font-size: 1.0 em;
+        line-height: 1.1;
+    }
+}
+
