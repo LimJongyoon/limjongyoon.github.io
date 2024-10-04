@@ -320,3 +320,24 @@
     }
 }
 
+.full Paper {
+    color: #007BFF; /* 링크 색상 */
+    text-decoration: underline; /* 밑줄 */
+    font-weight: bold; /* 글씨를 굵게 */
+}
+
+/* PDF 링크 스타일 */
+.pdf-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* 기본 밑줄 제거 */
+    color: inherit; /* 부모 색상 상속 */
+}
+
+.pdf-link img {
+    width: 20px; /* 아이콘 크기 */
+    height: auto; /* 비율 유지 */
+    margin-right: 5px; /* 텍스트와의 간격 */
+}
+
+
