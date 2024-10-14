@@ -12,32 +12,35 @@
 ## Publications <!-- {docsify-ignore} -->
 #### Papers <!-- {docsify-ignore} -->
 <div class="portfolio-item" onclick="window.location.href='#/GuideDogAR.md';">
+    <span class="year">2024</span> <!-- 연도 추가 -->
     <img src="../images/blind.png" alt="Guide Dog AR Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Guide Dog AR: A Tactile and Auditory Assisting Device Design with the Motif of a Guide Dog for the Visually Impaired</span>
         <span class="portfolio-middle">Soo Min Shin, <strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
         International Journal of Human–Computer Interaction, 1-14</span><br>
-        <span class="summary">This study introduces “Guide Dog AR,” an AR device inspired by the handle of a guide dog’s harness. The device and its associated content aim to provide visually impaired individuals with the experience of walking with a guide dog, serving as both a practical tool and a foundation for entertainment. The device offers an augmented walking experience through tactile and auditory sensations. The device was assessed with the factors "effectiveness" and "immersiveness." The evaluation for effectiveness involved creating a simulated virtual path. The level of immersion was evaluated based on how deeply users were engrossed in the augmented content provided by the device. The success rate was determined by how well users navigated this virtual path using the device’s feedback. In assessing immersion, in-depth interviews were conducted with visually impaired participants who experienced the virtual path using the Guide Dog AR device. These interviews focused on the participants' perceptions of presence, their engagement with the tactile and auditory feedback, and how closely the experience resembled real-world navigation with a guide dog. The results indicated that participants found the device to be both effective in navigating the virtual path and immersive in creating a lifelike experience, enhancing their confidence and enjoyment during the task. The study concludes that Guide Dog AR has the potential to serve as both an assistive technology and an engaging entertainment platform for visually impaired individuals.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">This study introduces “Guide Dog AR,” an AR device inspired by the handle of a guide dog’s harness. The device and its associated content aim to provide visually impaired individuals with the experience of walking with a guide dog, serving as both a practical tool and a foundation for entertainment. The device offers an augmented walking experience through tactile and auditory sensations. The device was assessed with the factors "effectiveness" and "immersiveness." The evaluation for effectiveness involved creating a simulated virtual path. The level of immersion was evaluated based on how deeply users were engrossed in the augmented content provided by the device. The success rate was determined by how well users navigated this virtual path using the device’s feedback. In assessing immersion, in-depth interviews were conducted with visually impaired participants who experienced the virtual path using the Guide Dog AR device. These interviews focused on the participants' perceptions of presence, their engagement with the tactile and auditory feedback, and how closely the experience resembled real-world navigation with a guide dog. The results indicated that participants found the device to be both effective in navigating the virtual path and immersive in creating a lifelike experience, enhancing their confidence and enjoyment during the task. The study concludes that Guide Dog AR has the potential to serve as both an assistive technology and an engaging entertainment platform for visually impaired individuals.</span> <a href="javascript:void(0);" onclick="toggleText(this)">View Details</a>
     </div>
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/HapTug.md';">
+    <span class="year">2022</span> <!-- 연도 추가 -->
     <img src="../images/haptug.png" alt="HapTug Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">HapTug: Force-Feedback Haptic Device for Representation of Tugs in Virtual Reality</span>
         <span class="portfolio-middle"><strong>Jongyoon Lim</strong>, Yongsoon Choi<br>
         Electronics 11 (11), 1730</span><br>
-        <span class="summary">In this study, a haptic device is proposed for virtual reality (VR). The proposed haptic device is linked to the bundle controller of a VR device. The device proposed in this study was a force-feedback device that focused on the haptic felt by the hand rather than the feeling of the tool colliding with the object. The device provides the feeling of centrifugal or inertial forces due to the weight of the tool when the user swings the tool, and the feeling of reaction force when a user stabs or pokes an object with the tool. The force generated by a haptic device of the linked type was measured and examined to determine whether this feeling of actually using a tool in the virtual environment is provided. In addition, we conducted two types of experiments to evaluate this haptic. First, VR content was created for user experience, and a survey was conducted with 30 experimenters to compare the bundle controllers and haptic device, called HapTug, in terms of realism, immersion, and enjoyment. The survey results demonstrated that the realism, immersion, and enjoyment increased compared to those using the bundle controller alone. Second, 41 experimenters were allowed to play freely in a virtual environment for six sessions, 30 seconds each. They had to press the button to control 30 seconds and the device they wore turned on and off randomly every session. During the experience, their playback time, number of interactions, and range were measured. As a result, when the device activated, experimenters felt the time was shorter and showed widespread movements. Thus, it was proven that the proposed linked-type haptic device effectively delivered the feeling of wielding a tool, allowing the user to feel the virtual object coming in and going out of the hand when interacting with it. Moreover, three possibilities were found in the experiments. Previous VR experience times have little to do with the satisfaction of haptic use, users have low expectations for haptic realism, and users interact more actively with haptic devices.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">In this study, a haptic device is proposed for virtual reality (VR). The proposed haptic device is linked to the bundle controller of a VR device. The device proposed in this study was a force-feedback device that focused on the haptic felt by the hand rather than the feeling of the tool colliding with the object. The device provides the feeling of centrifugal or inertial forces due to the weight of the tool when the user swings the tool, and the feeling of reaction force when a user stabs or pokes an object with the tool. The force generated by a haptic device of the linked type was measured and examined to determine whether this feeling of actually using a tool in the virtual environment is provided. In addition, we conducted two types of experiments to evaluate this haptic. First, VR content was created for user experience, and a survey was conducted with 30 experimenters to compare the bundle controllers and haptic device, called HapTug, in terms of realism, immersion, and enjoyment. The survey results demonstrated that the realism, immersion, and enjoyment increased compared to those using the bundle controller alone. Second, 41 experimenters were allowed to play freely in a virtual environment for six sessions, 30 seconds each. They had to press the button to control 30 seconds and the device they wore turned on and off randomly every session. During the experience, their playback time, number of interactions, and range were measured. As a result, when the device activated, experimenters felt the time was shorter and showed widespread movements. Thus, it was proven that the proposed linked-type haptic device effectively delivered the feeling of wielding a tool, allowing the user to feel the virtual object coming in and going out of the hand when interacting with it. Moreover, three possibilities were found in the experiments. Previous VR experience times have little to do with the satisfaction of haptic use, users have low expectations for haptic realism, and users interact more actively with haptic devices.</span> <a href="javascript:void(0);" onclick="toggleText(this)">View Details</a>
     </div>
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/BirdVR.md';">
+    <span class="year">2021</span> <!-- 연도 추가 -->
     <img src="../images/birdVR.png" alt="BirdVR Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BirdVR: UX design that enhances the connection between the form of the VR controller and the interaction within the content</span>
         <span class="portfolio-middle">Kyoungmin Bang, <strong>Jongyoon Lim</strong>, Haree Jun, Hangyeol Jo, Jean Ho Chu<br>
         HCIK(HCI Korea)(2022): 813-815</span><br>
-        <span class="summary">The BirdVR project is a UI/UX design initiative aimed at developing a bird-shaped VR controller tailored specifically for seniors aged 65 and older. This project addresses two key challenges: the difficulty seniors experience with traditional VR controllers and the disruption of immersion caused by complex interactive functions. The BirdVR controller offers an innovative solution by adopting a bird-like form, which serves dual purposes: it simplifies the learning process by aligning with the VR environment and enhances psychological stability through the soothing experience of petting the bird-shaped device. The controller is equipped with interactive touch areas, made possible by conductive thread, allowing for intuitive and simplified interaction within VR environments. Based on user feedback, motorized wings initially integrated into the design were removed to preserve the simplicity and comfort of the experience. The BirdVR controller is currently implemented at a welfare center in Gogang-dong, Seoul, where it is utilized in psychological healing VR content for seniors. The project has been recognized at HCI Korea 2022, where it was featured in the Interactive Art Gallery as part of the Creative Award showcase.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">The BirdVR project is a UI/UX design initiative aimed at developing a bird-shaped VR controller tailored specifically for seniors aged 65 and older. This project addresses two key challenges: the difficulty seniors experience with traditional VR controllers and the disruption of immersion caused by complex interactive functions. The BirdVR controller offers an innovative solution by adopting a bird-like form, which serves dual purposes: it simplifies the learning process by aligning with the VR environment and enhances psychological stability through the soothing experience of petting the bird-shaped device. The controller is equipped with interactive touch areas, made possible by conductive thread, allowing for intuitive and simplified interaction within VR environments. Based on user feedback, motorized wings initially integrated into the design were removed to preserve the simplicity and comfort of the experience. The BirdVR controller is currently implemented at a welfare center in Gogang-dong, Seoul, where it is utilized in psychological healing VR content for seniors. The project has been recognized at HCI Korea 2022, where it was featured in the Interactive Art Gallery as part of the Creative Award showcase.</span> <a href="javascript:void(0);" onclick="toggleText(this)">View Details</a>
     </div>
 </div>
 <br>
@@ -47,6 +50,7 @@
 #### Tangible Products <!-- {docsify-ignore} -->
 
 <div class="portfolio-item" onclick="window.location.href='#/everpen2.md';">
+    <span class="year">2024</span> <!-- 연도 추가 -->
     <img src="../images/everpen2.png" alt="everpen2" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">EverPen 2.0</span>
@@ -57,6 +61,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/everpen1.md';">
+    <span class="year">2023</span> <!-- 연도 추가 -->
     <img src="../images/everpen1.png" alt="everpen1" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">EverPen 1.0</span>
@@ -67,6 +72,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/jp/Idealavor.md';">
+    <span class="year">2022</span> <!-- 연도 추가 -->
     <img src="../images/Idealavor.png" alt="Idealavor Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Idealavor: Multi-Modality Eating Texture Haptic Device</span>
@@ -77,6 +83,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/cradle.md';">
+    <span class="year">2021</span> <!-- 연도 추가 -->
     <img src="../images/cradle.png" alt="cradle" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Smart Cradle</span>
@@ -88,6 +95,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/table-it.md';">
+    <span class="year">2017</span> <!-- 연도 추가 -->
     <img src="../images/tableit.png" alt="Table-It Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Table-It: Motion and Color Recognition AR Table</span>
@@ -100,6 +108,7 @@
 #### Arts and Games <!-- {docsify-ignore} -->
 
 <div class="portfolio-item" onclick="window.location.href='#/MMCA.md';">
+    <span class="year">2024</span> <!-- 연도 추가 -->
     <img src="../images/MMCA.png" alt="MMCA Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">AI Docent</span>
@@ -110,6 +119,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/BearHands.md';">
+    <span class="year">2024</span> <!-- 연도 추가 -->
     <img src="../images/bearhands.png" alt="BearHands Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BearHands</span>
@@ -120,6 +130,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/Stern.md';">
+    <span class="year">2023</span> <!-- 연도 추가 -->
     <img src="../images/Stern.png" alt="Stern Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Stern: Interactive Lighting Art</span>
@@ -130,6 +141,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/Stern.md';">
+    <span class="year">2023</span> <!-- 연도 추가 -->
     <img src="../images/space2.png" alt="Starbound Odyssey Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Starbound Odyssey</span>
@@ -140,6 +152,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/HotelMeta.md';">
+    <span class="year">2022</span> <!-- 연도 추가 -->
     <img src="../images/hotelmeta.png" alt="Hotel Meta Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Hotel Meta</span>
@@ -150,6 +163,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/BLE.md';">
+    <span class="year">2021</span> <!-- 연도 추가 -->
     <img src="../images/BLE2.png" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
@@ -160,6 +174,7 @@
 </div>
 
 <div class="portfolio-item" onclick="window.location.href='#/vrfilms.md';">
+    <span class="year">2020</span> <!-- 연도 추가 -->
     <img src="../images/vrfilm.png" alt="VR Films Image" class="portfolio-image">
     <div class="portfolio-text">
         <span class="portfolio-title">Eliminate the Sense of Heterogeneity of VR Devices by Wearing Goggles in a Virtual Environment</span>
