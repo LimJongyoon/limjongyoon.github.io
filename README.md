@@ -111,10 +111,10 @@
     <span class="year">2024</span> <!-- 연도 추가 -->
     <img src="../images/MMCA.png" alt="MMCA Image" class="portfolio-image">
     <div class="portfolio-text">
-        <span class="portfolio-title">AI Docent</span>
+        <span class="portfolio-title">MMCA Storage Chat Mobile</span>
         <span class="portfolio-middle">IOS App, National Museum of Modern and Contemporary Art (MMCA)<br>
         Concept Design, UX/UI Design & Software Development</span><br>
-        <span class="summary">An innovative AR platform that transforms multimedia contemporary art into an immersive, interactive experience. Utilizing BLE interior positioning, it creates an engaging environment where each artwork becomes a unique interactive experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">Storage Chat, developed as a mobile app, is a personalized conversational AI docent powered by generative AI. It goes beyond traditional search functions, providing visitors with real-time, interactive explanations based on their location or photos of museum exhibits they take. Unlike conventional docents that offer only limited information, this AI docent can deliver additional context, inferences, and insights about the artworks, making it a more comprehensive guide.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
 
@@ -125,7 +125,7 @@
         <span class="portfolio-title">BearHands</span>
         <span class="portfolio-middle">Game</span>
         <span class="portfolio-middle">3D Modeling, UX/UI Design & Software Development</span><br>
-        <span class="summary">BearHands is a wearable device that enhances user interaction in AR/VR environments by providing haptic feedback and gesture recognition, making virtual experiences feel more natural and immersive.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="summary">BearHands is a VR game that fully utilizes the passthrough feature of the Oculus Quest 3. The game takes players through day and night, present and past, as they uncover the protagonist's mystery. During this journey, players experience a unique blend of puzzle-solving and FPS elements. As the title suggests, while players can use controllers, the game emphasizes hand tracking and passthrough to deliver an immersive experience that blurs the line between the real and virtual worlds.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
 
@@ -166,7 +166,7 @@
     <span class="year">2021</span> <!-- 연도 추가 -->
     <img src="../images/BLE2.png" alt="BLE Interior Positioning Image" class="portfolio-image">
     <div class="portfolio-text">
-        <span class="portfolio-title">BLE Interior Positioning Base, AR Platform That Becomes a Work of Art</span>
+        <span class="portfolio-title">AR Where Visitors' Footsteps Become The Artwork</span>
         <span class="portfolio-middle">Exhibition, National Museum of Korea Project (2020)<br>
         Concept Design, UX/UI Design & Software Development</span><br>
         <span class="summary">This project leverages BLE (Bluetooth Low Energy) technology to create an innovative AR platform within museums and exhibition halls. By implementing precise interior positioning, the platform enhances visitor experience by dynamically generating AR content based on visitor movement and interaction data. The AR installations adapt to the frequency of footsteps, creating a living, evolving art piece that grows and changes with each visitor's path. The system also integrates social media interaction by displaying Instagram photos related to the exhibition, creating a unique digital guestbook that enriches the physical space with user-generated content.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
