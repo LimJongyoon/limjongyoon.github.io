@@ -195,7 +195,7 @@
 #### Hobbies
 <div class="hobbies-section">
 <div class="hobby-item">
-        <p class="explaintop"><strong>서핑:</strong> 나는 여름과 바다를 깊이 사랑하여 자연스럽게 서핑을 시작하게 되었습니다. 물속에 나가면 자연의 힘을 느끼고, 파도 위에 떠 있는 것은 특별히 짜릿한 경험입니다. 아직 기술을 연마 중이지만, 파도를 잡는 그 드문 순간은 마치 물 위를 걷는 듯한 마법 같은 느낌을 줍니다. 해변에 있을 때는 일상에서의 걱정이 사라지는 것 같습니다. 아마도 태양의 따뜻함 때문일까요, 해변에 있는 사람들은 항상 특별히 친절하고 열린 마음을 가지고 있습니다. 바다를 사랑하는 사람들 사이에는 특별한 동지애가 있습니다.</p> <a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
+        <p class="explaintop"><strong>서핑:</strong> 여름과 바다를 깊이 사랑하게 되어 자연스럽게 서핑을 시작하게 되었습니다. 물 위에 있을 때 자연의 힘을 느끼고, 파도 위에 떠 있는 것은 정말 특별한 짜릿함을 줍니다. 아직 기술을 연마하는 중이지만, 가끔 파도를 탈 때의 순간은 마치 물 위를 걷는 듯한 마법 같은 기분을 느끼게 해줍니다. 해변에 있을 때면 일상의 걱정이 사라지는 것 같습니다. 아마 태양의 따스함 때문인지, 해변에 있는 사람들은 특히 친절하고 열린 마음을 가진 것 같습니다. 바다를 사랑하는 사람들 사이에는 특별한 동지애가 있습니다.</p> <a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
         
         <div class="hobby-images">
             <img src="../images/surfing1.jpg" alt="Surfing 1" class="hobby-image">
@@ -209,7 +209,7 @@
     </div>
     
     <div class="hobby-item">
-    <p class="explain"><strong>피트니스:</strong> 웨이트 트레이닝은 내 몸을 조각하는 데 도움을 줄 뿐만 아니라, 나에게 명상의 한 형태로 작용합니다. 나의 신체적 움직임에 온전히 집중하는 행동은 평온함을 가져다주며, 나의 마음을 비우고 중심을 잡는 데 도움을 줍니다. 전통적인 명상과 마찬가지로, 그 본질은 마음을 비우는 것이며, 웨이트 트레이닝 중에 나는 그 정신적 명료함의 상태를 달성할 수 있습니다. 나에게 이는 스트레스를 해소하고 균형을 회복하는 중요한 부분입니다. 또한, 더 나은 나 자신이 되기 위한 지속적인 여정의 필수적인 요소입니다.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
+    <p class="explain"><strong>피트니스:</strong> 웨이트 트레이닝은 몸을 조각하는 데 도움을 줄 뿐만 아니라, 저에게는 명상의 한 형태이기도 합니다. 신체 움직임에 완전히 집중하는 과정은 마음의 평화를 가져다주고, 마음을 비우고 중심을 잡을 수 있게 합니다. 전통적인 명상과 마찬가지로, 그 본질은 마음을 비우는 것이며, 웨이트 트레이닝을 할 때 저는 그런 정신적 명료함의 상태를 달성할 수 있습니다. 저에게 있어 이는 스트레스를 해소하고 균형을 회복하는 데 중요한 부분입니다. 또한, 더 나은 나 자신이 되기 위한 지속적인 여정의 필수 요소이기도 합니다.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
         <div class="hobby-images">
             <img src="../images/fitness1.jpg" alt="Fitness 1" class="hobby-image">
             <img src="../images/fitness2.jpg" alt="Fitness 2" class="hobby-image">
@@ -220,7 +220,7 @@
     </div>
     
     <div class="hobby-item">
-        <p class="explain"><strong>일본 애니메이션:</strong> 나는 일본 애니메이션에 깊은 감사를 느낍니다. 그 상상력이 풍부한 이야기 전개와 깊은 감정 표현은 나를 항상 매료시켜왔습니다. 어릴 적부터 나는 공상 과학 및 판타지 장르에 끌려 모험과 경이의 세계에 몰입하는 것을 즐겼습니다. 나는 스타워즈와 마블 같은 영화를 즐기지만, 소년 만화의 주인공들에게서 얻는 영감은 그와는 다릅니다. 그들의 변함없는 긍정적인 태도와 역경을 극복하려는 의지는 나와 깊은 공감을 이룹니다. 그들이 고난 속에서 승리하는 모습을 보는 것은 항상 나에게 깊은 영감을 줍니다.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
+        <p class="explain"><strong>일본 애니메이션:</strong> 저는 일본 애니메이션에 대한 깊은 애정을 가지고 있습니다. 그 상상력 넘치는 스토리텔링과 깊은 감정 표현은 항상 저를 매료시킵니다. 어릴 때부터 저는 공상 과학과 판타지에 끌려, 모험과 경이로움의 세계에 빠져드는 것을 즐겼습니다. 스타워즈나 마블 같은 영화도 좋아하지만, 소년 만화의 주인공들에게서 느끼는 특별한 영감이 있습니다. 그들의 불굴의 긍정과 역경을 극복하려는 의지는 저에게 깊은 울림을 줍니다. 그들이 어려움 속에서도 승리하는 모습을 보는 것은 항상 저에게 깊은 영감을 제공합니다.</p><a href="javascript:void(0);" onclick="toggleExplainText(this)" class="more-btn">More</a>
         <div class="hobby-images">
             <img src="../images/animation1.jpg" alt="Animation 1" class="hobby-image">
             <img src="../images/animation2.jpg" alt="Animation 2" class="hobby-image">
