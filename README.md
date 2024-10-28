@@ -133,10 +133,9 @@
     <span class="year">2023</span> <!-- 연도 추가 -->
     <img src="../images/Stern.png" alt="Stern Image" class="portfolio-image">
     <div class="portfolio-text">
-        <span class="portfolio-title">Stern: Interactive Lighting Art</span>
+        <span class="portfolio-title">Stern: Immersive Urban AR Experience</span>
         <span class="portfolio-middle">Exhibition</span>
-        <span class="portfolio-middle">Concept Design & Hardware Development</span><br>
-        <span class="summary">Stern is an interactive lighting installation that responds to human presence and movement, creating a dynamic art piece that evolves with its environment, integrating light and motion into an artistic experience.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+        <span class="portfolio-middle">Stern is an immersive exhibition inviting visitors to wander through a starlit cityscape, where AR visuals displayed on a head-mounted device seamlessly blend with interactive electronic elements in the real world. As they progress through the experience, visitors encounter thought-provoking questions, each step enriching a personal data profile. Ultimately, in the exhibition's final stage, they arrive at a scenic overlook of the city skyline, where they receive a personalized analysis, revealing insights into their personality and preferences.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
     </div>
 </div>
 
