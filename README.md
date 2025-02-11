@@ -105,7 +105,29 @@
     </div>
 </div>
 
-#### Arts and Games <!-- {docsify-ignore} -->
+#### Art & Software Projects <!-- {docsify-ignore} -->
+
+<div class="portfolio-item" onclick="window.location.href='#/ChurchApp.md';">
+    <span class="year">2025</span> <!-- 연도 추가 -->
+    <img src="../images/churchapp.png" alt="Church App Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Our Beloved Church App</span>
+        <span class="portfolio-middle">Mobile Web App, Daily Faith Practice Management<br>
+        Concept Design, UX/UI Design & Software Development</span><br>
+        <span class="summary">The app is designed as a tool for faith-based communities, allowing users to track daily spiritual routines such as scripture memorization, prayer, and meditation. Church leaders can access individual and group statistics through an admin panel and provide announcements or multimedia content. Additionally, administrators and users can interact and share updates via a web-based database.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
+
+<div class="portfolio-item" onclick="window.location.href='#/Trashapps.md';">
+    <span class="year">2025</span> <!-- 연도 추가 -->
+    <img src="../images/trashapps.png" alt="Trashapps Image" class="portfolio-image">
+    <div class="portfolio-text">
+        <span class="portfolio-title">Trashapps: Simple Interactive Apps</span>
+        <span class="portfolio-middle">Web App Service, Short-form Content & Donation Integration<br>
+        Concept Design, UX/UI Design & Software Development</span><br>
+        <span class="summary">Trashapps is a collection of simple, interactive web apps designed for quick and effective use, targeting both educational and entertainment purposes. With features ranging from mini-games to functional tools, these apps are optimized for mobile experiences and integrate short-form video engagement with in-app donation functionality.</span> <a href="javascript:void(0);" onclick="toggleText(this)">More</a>
+    </div>
+</div>
 
 <div class="portfolio-item" onclick="window.location.href='#/MMCA.md';">
     <span class="year">2024</span> <!-- 연도 추가 -->
