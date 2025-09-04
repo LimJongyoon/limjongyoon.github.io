@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StorageChat LLM 대화 테스트</title>
+  <style>
+    /* --- High-contrast, clean dark UI --- */
+    :root {
+      --bg:#0d0f14;           /* page background */
+      --panel:#191c22;        /* card background (lighter for contrast) */
+      --muted:#2a2f39;        /* borders */
+      --text:#f2f4f8;         /* primary text */
+      --sub:#c0c6d1;          /* secondary text */
+      --brand:#e3c468;        /* brand accent */
+      --brand-2:#fed96b;      /* brighter hover */
+      --ok:#2ea043;           /* ok */
+      --err:#ff5c66;          /* error */
+      --chip:#222735;         /* chip background */
+      --input:#1f2430;        /* input background */
+      --ai:#2b3140;           /* ai bubble */
+      --me:#c9cbd1;           /* me bubble */
+      --meText:#0d0f14;       /* me bubble text */
+      --pilot:#3a4258;        /* pilot row tint */
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,Apple SD Gothic Neo,Noto Sans KR,sans-serif}
+    .app{display:grid;grid-template-columns:1.2fr .9fr;gap:18px;height:100%;padding:18px;box-sizing:border-box}
+    .card{background:var(--panel);border:1px solid var(--muted);border-radius:16px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+    .card h2{margin:0;padding:14px 16px;border-bottom:1px solid var(--muted);font-size:18px;font-weight:800}
+    /* Chat */
+    .chat{display:flex;flex-direction:column;min-height:0}
+    .messages{flex:1;overflow:auto;padding:16px;scroll-behavior:smooth}
+    .row{display:flex;margin-bottom:12px}
+    .row.system{justify-content:center;opacity:.85}
+    .bubble{max-width:74%;padding:12px 14px;border-radius:14px;line-height:1.5;white-space:pre-wrap}
+    .me .bubble{margin-left:auto;background:var(--me);color:var(--meText)}
+    .ai .bubble{margin-right:auto;background:var(--ai);color:var(--text)}
+    .foot{display:flex;gap:10px;padding:12px;border-top:1px solid var(--muted);align-items:center}
+    .input{flex:1;display:flex;align-items:center;background:var(--input);border:1px solid var(--muted);border-radius:12px;padding:6px 10px}
+    .input input{flex:1;background:transparent;border:0;outline:none;color:var(--text);font-size:15px}
+    .btn{border:0;border-radius:12px;padding:10px 14px;background:var(--chip);color:var(--text);cursor:pointer;transition:transform .06s ease, background .15s ease}
+    .btn.primary{background:var(--brand);color:#111;font-weight:800}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary:hover{background:var(--brand-2)}
+    .btn:focus{outline:2px solid var(--brand);outline-offset:2px}
+    .btn:disabled{opacity:.6;cursor:not-allowed}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;padding:8px 12px;border-bottom:1px solid var(--muted);background:rgba(255,255,255,.02)}
+.chip {
+  background: #3a3a3f;              /* 연한 회색 배경 */
+  color: #ffffff;                   /* 글자색 흰색 */
+  border: 1px solid var(--muted);   /* 테두리 유지 */
+  padding: 9px 14px;                /* 기존보다 살짝 크게 */
+  border-radius: 999px;             /* pill 스타일 */
+  font-size: 13px;                  /* 글씨 크기 업 */
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.chip:hover {
+  background: #505055;              /* hover 시 좀 더 밝은 회색 */
+  transform: translateY(-1px);      /* 살짝 떠오름 효과 */
+}
+    .muted{color:var(--sub)}
+    /* Autocomplete */
+    .ac{position:absolute;left:16px;right:16px;bottom:86px;max-height:260px;overflow:auto;background:#141822;border:1px solid var(--muted);border-radius:12px;display:none;z-index:5}
+    .ac ul{list-style:none;margin:0;padding:6px}
+    .ac li{padding:9px 11px;border-radius:8px;cursor:pointer}
+    .ac li:hover{background:#1b2130}
+    /* Right column */
+    .search{padding:12px;display:flex;flex-direction:column;gap:10px}
+    .field{display:flex;gap:8px}
+    .field input, .field select{flex:1;background:var(--input);border:1px solid var(--muted);border-radius:12px;color:var(--text);padding:10px 12px;font-size:14px}
+    .list{flex:1;overflow:auto;border-top:1px dashed var(--muted)}
+    .item{padding:12px;border-bottom:1px solid var(--muted);cursor:pointer;display:flex;justify-content:space-between;gap:10px;align-items:center}
+    .item:hover{background:#1a2130}
+    .left{display:flex;flex-direction:column;gap:4px}
+    .right{display:flex;gap:8px;align-items:center}
+    .mng{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,"Liberation Mono","Courier New", monospace;background:#10131a;border:1px solid #2b3240;border-radius:8px;padding:2px 6px}
+    .badge{display:inline-block;background:#262d3d;border:1px solid var(--muted);border-radius:8px;padding:3px 8px;font-size:11px}
+    .pilot-badge{background:var(--pilot);border-color:#4a5470}
+    .hint{font-size:12px;color:var(--sub);padding:10px 12px}
+    .pill{display:inline-flex;gap:6px;align-items:center;background:#121622;border:1px solid var(--muted);border-radius:999px;padding:7px 10px;font-size:12px}
+    .toolbar{display:flex;gap:8px;align-items:center}
+    .toggle{display:flex;gap:8px;align-items:center}
+    .divider{height:1px;background:var(--muted);margin:6px 0}
+    @media(max-width:1000px){.app{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Left: Chat -->
+    <section class="card chat" id="chatCard">
+      <h2>StorageChat LLM 대화 테스트</h2>
+
+      <div class="chips" id="catChips"></div>
+
+      <div class="messages" id="messages"></div>
+
+      <div class="foot">
+        <div class="pill" title="현재 세션 식별값">
+          <span>세션</span>
+          <strong id="sid">-</strong>
+        </div>
+        <div style="flex:1;position:relative">
+          <div class="input">
+            <input id="input" placeholder="메시지를 입력하세요… (예: 작품의 주제가 무엇인가요?)" autocomplete="off" />
+            <button class="btn" id="speakBtn" title="읽어주기">🔈</button>
+          </div>
+          <div class="ac" id="ac"><ul id="acList"></ul></div>
+        </div>
+        <button class="btn primary" id="send">전송</button>
+      </div>
+      <div class="hint">StorageChatMobile® 베타: 잘못된 답을 할 수 있습니다. | 오른쪽에서 mngno를 선택/입력하세요.</div>
+    </section>
+
+    <!-- Right: Manage number quick select -->
+    <aside class="card" style="min-height:0">
+      <h2>관리번호 선택</h2>
+      <div class="search">
+        <!-- Toolbar: apply mngno + search + toggles -->
+        <div class="field">
+          <input id="mngInput" placeholder="예: f03569 또는 3569" />
+          <button class="btn" id="applyMng">적용</button>
+        </div>
+        <div class="toolbar">
+          <div class="pill">현재 mngno: <strong id="mngno">(없음)</strong></div>
+          <div class="toggle">
+            <input type="checkbox" id="onlyPilot" />
+            <label for="onlyPilot" class="muted">실증용만 보기 (9)</label>
+          </div>
+        </div>
+        <div class="field">
+          <input id="filter" placeholder="전체 리스트 검색: 번호·제목·작가 (deviceInfo.json 기반)" />
+        </div>
+        <div class="divider"></div>
+        <div class="list" id="resultList"></div>
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    // ======================================================
+    // CONFIG
+    // ======================================================
+    const ENDPOINT = 'https://atfuturelab.sogang.ac.kr:40000/mngno';
+    const USE_TTS = true; // Web Speech API
+
+    // Pilot (실증용) 9 artworks with source URLs
+    // NOTE: We will tag matching mngno in the master list as pilot=true and attach url.
+    const PILOT_ITEMS = [
+      { mngno:'f03956', title:'김복진 <미륵불>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=3956&artistnm=김복진&wrkMngNo=03956&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f06685', title:'이수경 <번역된 도자기>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=6685&artistnm=이수경&wrkMngNo=06685&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f08164', title:'최정화 <내일의 꽃>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=8598&artistnm=최정화&wrkMngNo=08164&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f05301', title:'권진규 <말>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=5301&artistnm=권진규&wrkMngNo=05301&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f04027', title:'이건용 <관계항>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=4027&artistnm=이건용&wrkMngNo=04027&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f07541', title:'최종태 <생각하는 사람>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=7554&artistnm=최종태&wrkMngNo=07541&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f07812', title:'권오상 <트리>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=7825&artistnm=권오상&wrkMngNo=07812&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f04423', title:'김정숙 <비상>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=4423&artistnm=김정숙 a&wrkMngNo=04423&pageOrder=Wrkinfo_Seqno' },
+      { mngno:'f02107', title:'문신 <개미(라 후루미)>', url:'https://www.mmca.go.kr/collections/collectionsDetailPage.do?museumId=&wrkinfoSeqno=2107&artistnm=문신&wrkMngNo=02107&pageOrder=Wrkinfo_Seqno' },
+    ];
+
+    // Example quick prompts (chips)
+    const EXAMPLES = {
+"작품관련": [
+                "관련된 작품에는 어떤 것들이 있나요?",
+                "작품의 주제가 무엇인가요?",
+                "작품의 제작 동기와 이유는 무엇인가요?",
+                "작품이 전달하고자 하는 메시지는 무엇인가요?",
+                "작품에서 사용된 재료는 무엇인가요?",
+                "작품 제작 시 사용된 기법은 무엇인가요?",
+                "작품의 철학적 배경은 무엇인가요?",
+                "작품의 설치 방식이 주는 의미는 무엇인가요?",
+                "작품의 감상 포인트는 무엇인가요?",
+                "이 작품의 주제와 메시지는 무엇인가요?",
+                "작품의 제목에 담긴 의미는 무엇인가요?",
+                "작품의 크기가 전하는 느낌은 무엇인가요?",
+                "작품에서 사용된 색상의 의미는 무엇인가요?"
+            ],
+        "작가관련": [
+                "작가의 다른 대표작은 무엇인가요?",
+                "작가의 생애와 예술 활동은 어떠했나요?",
+                "작가가 이 작품을 만든 동기는 무엇인가요?",
+                "작가에게 영향을 준 주요 요소는 무엇인가요?",
+                "작가가 속한 예술 사조는 무엇인가요?",
+                "작가의 예술 세계는 어떤가요?",
+                "작가가 탐구하는 주요 주제는 무엇인가요?",
+                "작가가 전달하고자 한 주제의식은 무엇인가요?",
+                "작가의 예술적 접근법에 대해 설명해 주세요",
+                "작가가 이 작품에서 표현하고자 한 메시지는 무엇인가요?",
+                "작가가 사용한 재료의 상징성은 무엇인가요?",
+                "작가가 이 작품을 통해 전달하려 했던 감정은 무엇인가요?",
+                "작가의 작품 세계를 간단히 설명해 주세요",
+                "작가가 이 작품을 통해 관객에게 전하고자 한 감정은 무엇인가요?",
+                "작가가 이 작품을 제작하며 품었던 감정은 무엇인가요?"
+            ],
+        "시대관련": [
+                "작품이 만들어진 시대적 배경은 어떤가요?",
+                "작품의 주제와 관련된 시대상은 어떤가요?",
+                "해당 시대의 주요 예술적 흐름은 무엇이었나요?",
+                "그 시대의 사회적 배경은 어떠했나요?",
+                "작품이 반영하는 당시 사회적 이슈는 무엇인가요?",
+                "그 시대의 다른 주요 작품들은 무엇인가요?",
+                "해당 시대의 예술가들이 추구했던 메시지는 무엇인가요?",
+                "시대적 흐름과 작가의 작품이 어떻게 연결되나요?"
+        ],
+        "기타": [
+            "작가의 개인적 이력을 알려주세요",
+            "작가의 작품은 현재 어디에 전시되어 있나요?",
+            "작품의 설치 위치가 의미하는 바는 무엇인가요?",
+            "작품이 대중에게 받은 반응은 어땠나요?",
+            "작품이 청주관에 전시된 이유는 무엇인가요?",
+            "작품이 전시된 공간이 주는 의미는 무엇인가요?",
+            "작품이 주는 감동은 어떤가요?",
+            "작품의 제작 과정에서 어려웠던 점은 무엇인가요?",
+            "작품이 관객에게 전달하고자 하는 메시지는 무엇인가요?",
+            "작품의 상징적 포인트를 알려주세요",
+            "작품을 감상할 때 주의해야 할 점은 무엇인가요?"
+        ]
+    };
+
+    // ======================================================
+    // STATE
+    // ======================================================
+    let sessionId = localStorage.getItem('sc_session_id') || null; // persisted session id
+    let currentMngno = null;   // selected mngno for chat
+    let lastAIMsg = '';
+    let allItems = [];         // full list from deviceInfo.json (with pilot tagging)
+
+    // ======================================================
+    // DOM REFS
+    // ======================================================
+    const $ = (q)=>document.querySelector(q);
+    const el = (t,c)=>{const e=document.createElement(t); if(c) e.className=c; return e;};
+
+    const messagesEl = $('#messages');
+    const inputEl = $('#input');
+    const sendBtn = $('#send');
+    const sidEl = $('#sid');
+    const mngnoEl = $('#mngno');
+    const mngInput = $('#mngInput');
+    const applyMng = $('#applyMng');
+    const filter = $('#filter');
+    const resultList = $('#resultList');
+    const speakBtn = $('#speakBtn');
+    const acBox = document.getElementById('ac');
+    const acList = document.getElementById('acList');
+    const onlyPilot = document.getElementById('onlyPilot');
+
+    // ======================================================
+    // CHAT UI HELPERS
+    // ======================================================
+    function addMessage(text, who){
+      const row = el('div','row '+who);
+      const bubble = el('div','bubble');
+      bubble.textContent = text;
+      row.appendChild(bubble);
+      messagesEl.appendChild(row);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    function setSession(id){ sessionId = id; localStorage.setItem('sc_session_id', id); sidEl.textContent = id ? id.slice(0,8) : '-'; }
+    function setMngno(v){ currentMngno=v; mngnoEl.textContent = v || '(없음)'; }
+
+    function renderCategories(){
+      const wrap = document.getElementById('catChips');
+      wrap.innerHTML = '';
+      Object.keys(EXAMPLES).forEach(cat=>{
+        const chip = el('button','chip'); chip.textContent=cat;
+        chip.addEventListener('click',()=>openPicker(cat));
+        wrap.appendChild(chip);
+      });
+    }
+
+    function openPicker(cat){
+      const list = EXAMPLES[cat]||[];
+      acList.innerHTML = '';
+      list.forEach(q=>{
+        const li = document.createElement('li');
+        li.textContent=q; li.addEventListener('click',()=>{ inputEl.value=q; hideAC(); inputEl.focus(); });
+        acList.appendChild(li);
+      });
+      showAC();
+    }
+
+    function showAC(){ acBox.style.display='block'; }
+    function hideAC(){ acBox.style.display='none'; }
+
+    // ======================================================
+    // LIST (RIGHT PANEL)
+    // ======================================================
+    function tagPilots(items){
+      const pilotSet = new Map(PILOT_ITEMS.map(p=>[p.mngno, p]));
+      return items.map(it=>{
+        const p = pilotSet.get(it.mngno);
+        if(p){ return { ...it, pilot:true, url:p.url, pilotTitle:p.title }; }
+        return { ...it, pilot:false };
+      });
+    }
+
+    async function loadDeviceInfo(){
+      try{
+        const res = await fetch('./deviceInfo.json');
+        const data = await res.json();
+        // Convert object → array (include artist if present for search)
+        const base = Object.values(data).map(item=>({
+          mngno: item.mngno,
+          title: item.title,
+          artist: item.artist || ''
+        }));
+        allItems = tagPilots(base);
+        renderSampleList();
+      }catch(err){
+        console.error('deviceInfo.json load failed:', err);
+        // Fallback minimal list if JSON missing (keeps UI usable)
+        allItems = tagPilots([]);
+        renderSampleList();
+      }
+    }
+
+    function renderSampleList(){
+      const q = (filter.value||'').toLowerCase().trim();
+      const pilotOnly = !!onlyPilot.checked;
+      resultList.innerHTML = '';
+
+      // Filtering by: mngno, title, artist
+      let list = allItems.filter(it=>{
+        if(pilotOnly && !it.pilot) return false;
+        if(!q) return true;
+        const hay = `${it.mngno} ${it.title} ${it.artist}`.toLowerCase();
+        return hay.includes(q);
+      });
+
+      // Sort: pilot first, then by mngno
+      list.sort((a,b)=> (b.pilot?1:0) - (a.pilot?1:0) || a.mngno.localeCompare(b.mngno));
+
+      // Render rows
+      list.forEach(it=>{
+        const row = el('div','item');
+        if(it.pilot) row.style.background = 'linear-gradient(0deg, rgba(58,66,88,.15), rgba(58,66,88,.15))';
+
+        const left = el('div','left');
+        const m = el('span','mng'); m.textContent = it.mngno;
+        const t = el('div'); t.textContent = it.title || '(제목 없음)';
+        t.style.fontWeight='700';
+        left.appendChild(t);
+        left.appendChild(m);
+
+        const right = el('div','right');
+        if(it.pilot){
+          const b = el('span','badge pilot-badge'); b.textContent='실증용'; right.appendChild(b);
+          if(it.url){
+            const a = document.createElement('a'); a.href=it.url; a.target='_blank'; a.rel='noopener noreferrer';
+            a.className='badge'; a.textContent='상세보기'; right.appendChild(a);
+          }
+        }
+        const pick = el('button','btn'); pick.textContent='선택'; pick.title='이 mngno로 대화 시작';
+        pick.addEventListener('click', ()=> setMngno(it.mngno));
+        right.appendChild(pick);
+
+        row.appendChild(left); row.appendChild(right);
+        // Also clicking anywhere selects
+        row.addEventListener('click', (e)=>{ if(e.target===pick) return; setMngno(it.mngno); });
+        resultList.appendChild(row);
+      });
+    }
+
+    // ======================================================
+    // NETWORKING (CHAT)
+    // ======================================================
+    async function askLLM(question, retry=0){
+      if(!currentMngno){ addMessage('먼저 오른쪽에서 관리번호(mngno)를 선택/입력하세요.', 'system'); return; }
+      const payload = { mngno: currentMngno, question, is_youth: false, session_id: sessionId ?? null };
+      try{
+        const res = await fetch(ENDPOINT, { method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify(payload) });
+        if(res.status===500){
+          if(retry<3){ addMessage(`서버 500 오류, 재시도 ${retry+1}/3…`, 'system'); return askLLM(question, retry+1); }
+          addMessage('3회 재시도 후에도 실패했습니다.', 'system'); return;
+        }
+        const data = await res.json();
+        if(data.id) setSession(data.id);
+        const answer = data.answer || '(응답에 answer 필드가 없습니다)';
+        lastAIMsg = answer; addMessage('👩🏻‍🏫 '+answer, 'ai');
+        if(USE_TTS) speak(answer);
+      }catch(err){ addMessage('요청 실패: '+(err && err.message ? err.message: err), 'system'); }
+    }
+
+    // ======================================================
+    // TTS (Web Speech)
+    // ======================================================
+    let speaking = false;
+    function speak(text){
+      try{
+        const u = new SpeechSynthesisUtterance(text); u.lang='ko-KR'; u.rate=1; u.onend=()=>{speaking=false};
+        speaking=true; speechSynthesis.speak(u);
+      }catch(e){}
+    }
+    function stopSpeak(){ try{ speechSynthesis.cancel(); speaking=false; }catch(e){} }
+
+    // ======================================================
+    // EVENTS
+    // ======================================================
+    sendBtn.addEventListener('click', ()=>{ const q = inputEl.value.trim(); if(!q) return; addMessage('⌨️ '+q,'me'); inputEl.value=''; hideAC(); askLLM(q); });
+    inputEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); sendBtn.click(); } });
+    inputEl.addEventListener('input', ()=>{
+      const val = inputEl.value.trim().toLowerCase();
+      const merged = Object.values(EXAMPLES).flat();
+      const list = val ? merged.filter(v=>v.toLowerCase().includes(val)).slice(0,20) : [];
+      acList.innerHTML = '';
+      list.forEach(q=>{ const li=document.createElement('li'); li.textContent=q; li.addEventListener('click',()=>{ inputEl.value=q; hideAC(); inputEl.focus(); }); acList.appendChild(li); });
+      acBox.style.display = list.length? 'block':'none';
+    });
+
+    applyMng.addEventListener('click', ()=>{ const v=mngInput.value.trim(); if(v) setMngno(v); });
+    filter.addEventListener('input', renderSampleList);
+    speakBtn.addEventListener('click', ()=>{ if(speaking) stopSpeak(); else if(lastAIMsg) speak(lastAIMsg); });
+    onlyPilot.addEventListener('change', renderSampleList);
+
+    // ======================================================
+    // INIT
+    // ======================================================
+    function addHello(){
+      addMessage('안녕하세요. 국립현대미술관의 작품과 작가에 대해 궁금한 점이 있으면 언제든지 물어보세요. 도움이 되겠습니다.', 'ai');
+      addMessage('오른쪽에서 mngno를 선택하시면 해당 작품으로 대화가 시작됩니다. (실증용 9개는 배지 표시)', 'ai');
+    }
+    function restoreSession(){ if(sessionId) sidEl.textContent = sessionId.slice(0,8); }
+
+    renderCategories();
+    restoreSession();
+    addHello();
+    loadDeviceInfo(); // load full list from deviceInfo.json and render
+  </script>
+</body>
+</html>
