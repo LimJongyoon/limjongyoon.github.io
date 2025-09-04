@@ -103,7 +103,7 @@
         </div>
         <div style="flex:1;position:relative">
           <div class="input">
-            <input id="input" placeholder="메시지를 입력하세요… (예: 작품의 주제가 무엇인가요?)" autocomplete="off" />
+            <input id="input" placeholder="AI도슨트에게 할 질문을 적어주세요 (예: 작품의 주제가 무엇인가요?)" autocomplete="off" />
             <button class="btn" id="speakBtn" title="읽어주기">🔈</button>
           </div>
           <div class="ac" id="ac"><ul id="acList"></ul></div>
@@ -119,18 +119,18 @@
       <div class="search">
         <!-- Toolbar: apply mngno + search + toggles -->
         <div class="field">
-          <input id="mngInput" placeholder="예: f03569 또는 3569" />
+          <input id="mngInput" placeholder="여기에 직접입력 또는 아래리스트에서 선택 예: f02107" />
           <button class="btn" id="applyMng">적용</button>
         </div>
         <div class="toolbar">
-          <div class="pill">현재 mngno: <strong id="mngno">(없음)</strong></div>
+          <div class="pill">현재 관리번호: <strong id="mngno">(없음)</strong></div>
           <div class="toggle">
             <input type="checkbox" id="onlyPilot" />
-            <label for="onlyPilot" class="muted">실증용만 보기 (9)</label>
+            <label for="onlyPilot" class="muted">실증용만 보기 (9개)</label>
           </div>
         </div>
         <div class="field">
-          <input id="filter" placeholder="전체 리스트 검색: 번호·제목·작가 (deviceInfo.json 기반)" />
+          <input id="filter" placeholder="전체 리스트 검색: 번호·제목·작가로 검색하고 클릭하시면 해당 소장품에대한 질문이 적용됩니다" />
         </div>
         <div class="divider"></div>
         <div class="list" id="resultList"></div>
